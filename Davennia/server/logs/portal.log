@@ -1,0 +1,13 @@
+20-03-07 17:17:16-06  |Portal| Loading z:\mud\evennia\evennia\server\portal\portal.py...
+20-03-07 17:17:18-06  |Portal| Loaded.
+20-03-07 17:17:18-06  |Portal| twistd 19.10.0 (z:\mud\evenv\scripts\python.exe 3.7.1) starting up.
+20-03-07 17:17:18-06  |Portal| reactor class: twisted.internet.selectreactor.SelectReactor.
+20-03-07 17:17:18-06  |Portal| AMP starting on 4006
+20-03-07 17:17:18-06  |Portal| Telnet starting on 4000
+20-03-07 17:17:18-06  |Portal| Websocket starting on 4002
+20-03-07 17:17:18-06  |Portal| Webserver-proxy starting on 4001
+20-03-07 17:17:18-06  |Portal| Portal starting server ... ['z:\\mud\\evennia\\evennia\\server\\twistd.bat', '--python=z:\\mud\\evennia\\evennia\\server\\server.py']
+20-03-07 17:17:22-06  |Portal| Portal starting server ... ['z:\\mud\\evennia\\evennia\\server\\twistd.bat', '--python=z:\\mud\\evennia\\evennia\\server\\server.py']
+20-03-07 17:18:25-06  |Portal| Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=50412)
+20-03-07 17:18:25-06  |Portal| Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=50402)
+20-03-07 17:18:25-06  |Portal| Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=50403)

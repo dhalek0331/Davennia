@@ -1,0 +1,25 @@
+20-03-07 17:17:19-06 Loading z:\mud\evennia\evennia\server\server.py...
+20-03-07 17:17:20-06 Loaded.
+20-03-07 17:17:20-06 twistd 19.10.0 (z:\mud\evenv\scripts\python.exe 3.7.1) starting up.
+20-03-07 17:17:20-06 reactor class: twisted.internet.selectreactor.SelectReactor.
+20-03-07 17:17:20-06 Webserver starting on 4005
+20-03-07 17:17:20-06 [..] Initial setup: Creating objects (Account #1 and Limbo room) ...
+20-03-07 17:17:20-06 [..] Initial setup: Creating default channels ...
+20-03-07 17:17:21-06 [..] Initial setup: Running at_initial_setup() hook.
+20-03-07 17:17:21-06 [..] Initial setup: Gathering static resources using 'collectstatic'
+20-03-07 17:17:21-06 
+20-03-07 17:17:21-06 0 static files copied to 'Z:\mud\Davennia\web\static', 158 unmodified.
+20-03-07 17:17:21-06 [..] Initial setup complete. Restarting Server once.
+20-03-07 17:17:21-06 Evennia Server successfully started.
+20-03-07 17:17:22-06 [..] Server disconnected from the portal.
+20-03-07 17:17:22-06 Main loop terminated.
+20-03-07 17:17:22-06 Server Shut Down.
+20-03-07 17:17:22-06 Server Shut Down.
+20-03-07 17:17:22-06 Loading z:\mud\evennia\evennia\server\server.py...
+20-03-07 17:17:24-06 Loaded.
+20-03-07 17:17:24-06 twistd 19.10.0 (z:\mud\evenv\scripts\python.exe 3.7.1) starting up.
+20-03-07 17:17:24-06 reactor class: twisted.internet.selectreactor.SelectReactor.
+20-03-07 17:17:24-06 Webserver starting on 4005
+20-03-07 17:17:24-06 Evennia Server successfully restarted in 'reset' mode.
+20-03-07 17:17:29-06 [SS] Authentication Success: dave(account 1) (IP: 127.0.0.1).
+20-03-07 17:17:29-06 [..] Logged in: dave(account 1) 127.0.0.1 (1 session(s) total)
