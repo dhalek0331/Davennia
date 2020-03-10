@@ -23,3 +23,31 @@
 20-03-07 17:17:24-06 Evennia Server successfully restarted in 'reset' mode.
 20-03-07 17:17:29-06 [SS] Authentication Success: dave(account 1) (IP: 127.0.0.1).
 20-03-07 17:17:29-06 [..] Logged in: dave(account 1) 127.0.0.1 (1 session(s) total)
+20-03-09 23:25:27-05 [..] Logged out: dave(account 1) 127.0.0.1 (1 sessions(s) remaining) (Logged in from elsewhere. Disconnecting.)
+20-03-09 23:25:27-05 [..] Logged in: dave(account 1) 127.0.0.1 (1 session(s) total)
+20-03-09 23:25:51-05 [SS] Authentication Failure: dave (IP: 127.0.0.1).
+20-03-09 23:25:59-05 [SS] Authentication Success: dave(account 1) (IP: 127.0.0.1).
+20-03-09 23:25:59-05 [..] Logged out: dave(account 1) 127.0.0.1 (1 sessions(s) remaining) (Logged in from elsewhere. Disconnecting.)
+20-03-09 23:25:59-05 [..] Logged in: dave(account 1) 127.0.0.1 (1 session(s) total)
+20-03-10 12:39:32-05 [..] Server disconnected from the portal.
+20-03-10 12:39:32-05 Main loop terminated.
+20-03-10 12:39:32-05 Server Shut Down.
+20-03-10 12:39:32-05 Server Shut Down.
+20-03-10 12:39:33-05 Loading z:\mud\evennia\evennia\server\server.py...
+20-03-10 12:39:35-05 Loaded.
+20-03-10 12:39:35-05 twistd 19.10.0 (z:\mud\evenv\scripts\python.exe 3.7.1) starting up.
+20-03-10 12:39:35-05 reactor class: twisted.internet.selectreactor.SelectReactor.
+20-03-10 12:39:35-05 Webserver starting on 4005
+20-03-10 12:39:35-05 Server successfully reloaded.
+20-03-10 13:01:54-05 [..] Server disconnected from the portal.
+20-03-10 13:01:54-05 Main loop terminated.
+20-03-10 13:01:54-05 Server Shut Down.
+20-03-10 13:01:54-05 Server Shut Down.
+20-03-10 13:02:04-05 Loading z:\mud\evennia\evennia\server\server.py...
+20-03-10 13:02:06-05 Loaded.
+20-03-10 13:02:06-05 twistd 19.10.0 (z:\mud\evenv\scripts\python.exe 3.7.1) starting up.
+20-03-10 13:02:06-05 reactor class: twisted.internet.selectreactor.SelectReactor.
+20-03-10 13:02:06-05 Webserver starting on 4005
+20-03-10 13:02:06-05 Evennia Server successfully started.
+20-03-10 13:05:16-05 [SS] Authentication Success: dave(account 1) (IP: 127.0.0.1).
+20-03-10 13:05:16-05 [..] Logged in: dave(account 1) 127.0.0.1 (1 session(s) total)
