@@ -2,86 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="38f87f42-21d0-4a4b-8f43-0e487b7d8ff0" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Davennia/commands/builder/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Davennia/commands/builder/detail.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Davennia/commands/default/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Davennia/commands/default/account.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Davennia/commands/default/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Davennia/commands/default/batchprocess.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Davennia/commands/default/building.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Davennia/commands/default/cmdset_account.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Davennia/commands/default/cmdset_character.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Davennia/commands/default/cmdset_session.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Davennia/commands/default/cmdset_unloggedin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Davennia/commands/default/comms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Davennia/commands/default/general.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Davennia/commands/default/help.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Davennia/commands/default/look2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Davennia/commands/default/muxcommand.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Davennia/commands/default/syscommands.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Davennia/commands/default/system.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Davennia/commands/default/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Davennia/commands/default/unloggedin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Davennia/commands/general/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Davennia/commands/general/cmdset_general.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/mud.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/mud.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Davennia/commands/default/look2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Davennia/commands/general/look.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Davennia/commands/default_cmdsets.py" beforeDir="false" afterPath="$PROJECT_DIR$/Davennia/commands/default_cmdsets.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Davennia/server/conf/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Davennia/server/conf/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Davennia/server/evennia.db3" beforeDir="false" afterPath="$PROJECT_DIR$/Davennia/server/evennia.db3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Davennia/server/logs/lockwarnings.log" beforeDir="false" afterPath="$PROJECT_DIR$/Davennia/server/logs/lockwarnings.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Davennia/server/logs/portal.log" beforeDir="false" afterPath="$PROJECT_DIR$/Davennia/server/logs/portal.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Davennia/server/logs/server.log" beforeDir="false" afterPath="$PROJECT_DIR$/Davennia/server/logs/server.log" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/mud$_RESTART.coverage" NAME="-RESTART Coverage Results" MODIFIED="1583863315393" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Davennia" />
-    <SUITE FILE_PATH="coverage/mud$_STOP.coverage" NAME="-STOP Coverage Results" MODIFIED="1583863311409" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Davennia" />
-    <SUITE FILE_PATH="coverage/mud$Davennia_Reload.coverage" NAME="Davennia Reload Coverage Results" MODIFIED="1583861968184" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Davennia" />
-    <SUITE FILE_PATH="coverage/mud$_START.coverage" NAME="-START Coverage Results" MODIFIED="1583863278473" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Davennia" />
+    <SUITE FILE_PATH="coverage/mud$_RESTART.coverage" NAME="-RESTART Coverage Results" MODIFIED="1583881922912" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Davennia" />
+    <SUITE FILE_PATH="coverage/mud$_STOP.coverage" NAME="-STOP Coverage Results" MODIFIED="1583882416802" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Davennia" />
+    <SUITE FILE_PATH="coverage/mud$Davennia_Reload.coverage" NAME="Davennia Reload Coverage Results" MODIFIED="1583882284557" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Davennia" />
+    <SUITE FILE_PATH="coverage/mud$_RELOAD.coverage" NAME="-RELOAD Coverage Results" MODIFIED="1583882499773" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Davennia" />
+    <SUITE FILE_PATH="coverage/mud$_START.coverage" NAME="-START Coverage Results" MODIFIED="1583894362382" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Davennia" />
     <SUITE FILE_PATH="coverage/mud$.coverage" NAME=" Coverage Results" MODIFIED="1583862086277" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-  </component>
-  <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
-      <split-first>
-        <leaf>
-          <file leaf-file-name="detail.py" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/Davennia/commands/builder/detail.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="272">
-                  <caret line="16" column="70" lean-forward="true" selection-start-line="16" selection-start-column="70" selection-end-line="16" selection-end-column="70" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="look2.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Davennia/commands/default/look2.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="590">
-                  <caret line="76" column="14" selection-start-line="76" selection-start-column="14" selection-end-line="76" selection-end-column="14" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file leaf-file-name="rooms.py" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/evennia/evennia/contrib/tutorial_world/rooms.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="68">
-                  <caret line="202" lean-forward="true" selection-start-line="202" selection-end-line="202" />
-                  <folding>
-                    <element signature="e#328#341#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -94,20 +40,6 @@
     <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/Davennia/commands/builder/detail.py" />
-        <option value="$PROJECT_DIR$/Davennia/commands/default/look2.py" />
-      </list>
-    </option>
-  </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
-  </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
     <option name="FILTER_WARNINGS" value="false" />
@@ -115,123 +47,58 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
-  <component name="NodePackageJsonFileManager">
-    <packageJsonPaths />
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="59" />
-    <option name="y" value="-9" />
-    <option name="width" value="1770" />
-    <option name="height" value="1067" />
-  </component>
+  <component name="ProjectId" id="1Yxr2alxj0VhWNkW5SfodUIdIQU" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="mud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mud" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mud" type="462c0819:PsiDirectoryNode" />
-              <item name="Davennia" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mud" type="462c0819:PsiDirectoryNode" />
-              <item name="Davennia" type="462c0819:PsiDirectoryNode" />
-              <item name="commands" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mud" type="462c0819:PsiDirectoryNode" />
-              <item name="Davennia" type="462c0819:PsiDirectoryNode" />
-              <item name="commands" type="462c0819:PsiDirectoryNode" />
-              <item name="builder" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mud" type="462c0819:PsiDirectoryNode" />
-              <item name="Davennia" type="462c0819:PsiDirectoryNode" />
-              <item name="commands" type="462c0819:PsiDirectoryNode" />
-              <item name="default" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mud" type="462c0819:PsiDirectoryNode" />
-              <item name="evennia" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mud" type="462c0819:PsiDirectoryNode" />
-              <item name="evennia" type="462c0819:PsiDirectoryNode" />
-              <item name="evennia" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mud" type="462c0819:PsiDirectoryNode" />
-              <item name="evennia" type="462c0819:PsiDirectoryNode" />
-              <item name="evennia" type="462c0819:PsiDirectoryNode" />
-              <item name="commands" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mud" type="462c0819:PsiDirectoryNode" />
-              <item name="evennia" type="462c0819:PsiDirectoryNode" />
-              <item name="evennia" type="462c0819:PsiDirectoryNode" />
-              <item name="contrib" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mud" type="462c0819:PsiDirectoryNode" />
-              <item name="evennia" type="462c0819:PsiDirectoryNode" />
-              <item name="evennia" type="462c0819:PsiDirectoryNode" />
-              <item name="contrib" type="462c0819:PsiDirectoryNode" />
-              <item name="tutorial_world" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Davennia" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="Z:\mud\Davennia\commands\general" />
+      <recent name="Z:\mud\Davennia\commands" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="Z:\mud\Davennia\commands" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="Z:\mud\Davennia\commands" />
-    </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Python.-RESTART">
+  <component name="RunManager" selected="Python.-START">
+    <configuration name="-RELOAD" type="PythonConfigurationType" factoryName="Python">
+      <log_file alias="portal" path="$PROJECT_DIR$/Davennia/server/logs/portal.log" />
+      <log_file alias="server" path="$PROJECT_DIR$/Davennia/server/logs/server.log" />
+      <log_file alias="http_requests" path="$PROJECT_DIR$/Davennia/server/logs/http_requests.log" />
+      <module name="mud" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="Z:\mud\evenv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Davennia" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/evenv/Scripts/evennia_launcher.py" />
+      <option name="PARAMETERS" value="reload -l" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="-RESTART" type="PythonConfigurationType" factoryName="Python">
       <log_file alias="portal" path="$PROJECT_DIR$/Davennia/server/logs/portal.log" />
       <log_file alias="server" path="$PROJECT_DIR$/Davennia/server/logs/server.log" />
@@ -253,7 +120,9 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
-      <method>
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2">
         <option name="RunConfigurationTask" enabled="true" run_configuration_name="-STOP" run_configuration_type="PythonConfigurationType" />
       </method>
     </configuration>
@@ -278,6 +147,9 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
     <configuration name="-STOP" type="PythonConfigurationType" factoryName="Python">
       <module name="mud" />
@@ -297,6 +169,9 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
     <configuration name="Davennia Reboot" type="PythonConfigurationType" factoryName="Python">
       <module name="mud" />
@@ -316,6 +191,9 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
     <configuration name="Davennia Reload" type="PythonConfigurationType" factoryName="Python">
       <module name="mud" />
@@ -335,6 +213,9 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
     <configuration name="Davennia Reset (purge)" type="PythonConfigurationType" factoryName="Python">
       <module name="mud" />
@@ -354,6 +235,9 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
     <configuration name="Davennia Start" type="PythonConfigurationType" factoryName="Python">
       <module name="mud" />
@@ -373,6 +257,9 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
     <configuration name="Davennia Stop" type="PythonConfigurationType" factoryName="Python">
       <module name="mud" />
@@ -392,11 +279,15 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
     <list>
       <item itemvalue="Python.-STOP" />
       <item itemvalue="Python.-START" />
       <item itemvalue="Python.-RESTART" />
+      <item itemvalue="Python.-RELOAD" />
       <item itemvalue="Python.Davennia Start" />
       <item itemvalue="Python.Davennia Stop" />
       <item itemvalue="Python.Davennia Reload" />
@@ -414,81 +305,105 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1583623222358</updated>
+      <workItem from="1583894880647" duration="900000" />
+      <workItem from="1583932670054" duration="6068000" />
     </task>
+    <task id="LOCAL-00001" summary="Commands detail, look2 (to see details)">
+      <created>1583864998618</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1583864998618</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="73" y="-8" width="1855" height="1096" extended-state="6" />
-    <layout>
-      <window_info anchor="bottom" id="TODO" order="12" />
-      <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" order="0" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="8" weight="0.282678" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="2" visible="true" weight="0.32943678" />
-      <window_info anchor="bottom" id="Python Console" order="3" />
-      <window_info anchor="bottom" id="Terminal" order="4" />
-      <window_info anchor="right" id="Remote Host" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.13871866" />
-      <window_info anchor="bottom" id="Docker" order="5" show_stripe_button="false" />
-      <window_info anchor="right" id="Database" order="0" />
-      <window_info anchor="bottom" id="Find" order="7" weight="0.32971373" />
-      <window_info anchor="right" id="SciView" order="1" />
-      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Debug" order="9" weight="0.3995749" />
-      <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
-      <window_info anchor="right" id="Commander" order="2" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="6" />
-    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
   <component name="VcsManagerConfiguration">
     <ignored-roots>
       <path value="$PROJECT_DIR$/Davennia" />
+      <path value="$PROJECT_DIR$/evennia" />
     </ignored-roots>
+    <MESSAGE value="Commands detail, look2 (to see details)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commands detail, look2 (to see details)" />
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/evennia/CODE_OF_CONDUCT.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Davennia/commands/default/look2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="590">
-          <caret line="76" column="14" selection-start-line="76" selection-start-column="14" selection-end-line="76" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Davennia/commands/builder/detail.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="70" lean-forward="true" selection-start-line="16" selection-start-column="70" selection-end-line="16" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/evennia/evennia/contrib/tutorial_world/rooms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="202" lean-forward="true" selection-start-line="202" selection-end-line="202" />
-          <folding>
-            <element signature="e#328#341#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+  <component name="WindowStateProjectService">
+    <state width="1943" height="223" key="GridCell.Tab.0.bottom" timestamp="1583949178144">
+      <screen x="1982" y="-81" width="1986" height="1152" />
+    </state>
+    <state width="1943" height="223" key="GridCell.Tab.0.bottom/81.0.1839.1080/1982.-81.1986.1152@1982.-81.1986.1152" timestamp="1583949178144" />
+    <state width="1943" height="223" key="GridCell.Tab.0.center" timestamp="1583949178144">
+      <screen x="1982" y="-81" width="1986" height="1152" />
+    </state>
+    <state width="1943" height="223" key="GridCell.Tab.0.center/81.0.1839.1080/1982.-81.1986.1152@1982.-81.1986.1152" timestamp="1583949178144" />
+    <state width="1943" height="223" key="GridCell.Tab.0.left" timestamp="1583949178144">
+      <screen x="1982" y="-81" width="1986" height="1152" />
+    </state>
+    <state width="1943" height="223" key="GridCell.Tab.0.left/81.0.1839.1080/1982.-81.1986.1152@1982.-81.1986.1152" timestamp="1583949178144" />
+    <state width="1943" height="223" key="GridCell.Tab.0.right" timestamp="1583949178144">
+      <screen x="1982" y="-81" width="1986" height="1152" />
+    </state>
+    <state width="1943" height="223" key="GridCell.Tab.0.right/81.0.1839.1080/1982.-81.1986.1152@1982.-81.1986.1152" timestamp="1583949178144" />
+    <state width="1943" height="223" key="GridCell.Tab.1.bottom" timestamp="1583949178144">
+      <screen x="1982" y="-81" width="1986" height="1152" />
+    </state>
+    <state width="1943" height="223" key="GridCell.Tab.1.bottom/81.0.1839.1080/1982.-81.1986.1152@1982.-81.1986.1152" timestamp="1583949178144" />
+    <state width="1943" height="223" key="GridCell.Tab.1.center" timestamp="1583949178144">
+      <screen x="1982" y="-81" width="1986" height="1152" />
+    </state>
+    <state width="1943" height="223" key="GridCell.Tab.1.center/81.0.1839.1080/1982.-81.1986.1152@1982.-81.1986.1152" timestamp="1583949178144" />
+    <state width="1943" height="223" key="GridCell.Tab.1.left" timestamp="1583949178144">
+      <screen x="1982" y="-81" width="1986" height="1152" />
+    </state>
+    <state width="1943" height="223" key="GridCell.Tab.1.left/81.0.1839.1080/1982.-81.1986.1152@1982.-81.1986.1152" timestamp="1583949178144" />
+    <state width="1943" height="223" key="GridCell.Tab.1.right" timestamp="1583949178144">
+      <screen x="1982" y="-81" width="1986" height="1152" />
+    </state>
+    <state width="1943" height="223" key="GridCell.Tab.1.right/81.0.1839.1080/1982.-81.1986.1152@1982.-81.1986.1152" timestamp="1583949178144" />
+    <state width="1943" height="223" key="GridCell.Tab.2.bottom" timestamp="1583949178144">
+      <screen x="1982" y="-81" width="1986" height="1152" />
+    </state>
+    <state width="1943" height="223" key="GridCell.Tab.2.bottom/81.0.1839.1080/1982.-81.1986.1152@1982.-81.1986.1152" timestamp="1583949178144" />
+    <state width="1943" height="223" key="GridCell.Tab.2.center" timestamp="1583949178144">
+      <screen x="1982" y="-81" width="1986" height="1152" />
+    </state>
+    <state width="1943" height="223" key="GridCell.Tab.2.center/81.0.1839.1080/1982.-81.1986.1152@1982.-81.1986.1152" timestamp="1583949178144" />
+    <state width="1943" height="223" key="GridCell.Tab.2.left" timestamp="1583949178144">
+      <screen x="1982" y="-81" width="1986" height="1152" />
+    </state>
+    <state width="1943" height="223" key="GridCell.Tab.2.left/81.0.1839.1080/1982.-81.1986.1152@1982.-81.1986.1152" timestamp="1583949178144" />
+    <state width="1943" height="223" key="GridCell.Tab.2.right" timestamp="1583949178144">
+      <screen x="1982" y="-81" width="1986" height="1152" />
+    </state>
+    <state width="1943" height="223" key="GridCell.Tab.2.right/81.0.1839.1080/1982.-81.1986.1152@1982.-81.1986.1152" timestamp="1583949178144" />
+    <state width="1943" height="223" key="GridCell.Tab.3.bottom" timestamp="1583949178145">
+      <screen x="1982" y="-81" width="1986" height="1152" />
+    </state>
+    <state width="1943" height="223" key="GridCell.Tab.3.bottom/81.0.1839.1080/1982.-81.1986.1152@1982.-81.1986.1152" timestamp="1583949178145" />
+    <state width="1943" height="223" key="GridCell.Tab.3.center" timestamp="1583949178145">
+      <screen x="1982" y="-81" width="1986" height="1152" />
+    </state>
+    <state width="1943" height="223" key="GridCell.Tab.3.center/81.0.1839.1080/1982.-81.1986.1152@1982.-81.1986.1152" timestamp="1583949178145" />
+    <state width="1943" height="223" key="GridCell.Tab.3.left" timestamp="1583949178144">
+      <screen x="1982" y="-81" width="1986" height="1152" />
+    </state>
+    <state width="1943" height="223" key="GridCell.Tab.3.left/81.0.1839.1080/1982.-81.1986.1152@1982.-81.1986.1152" timestamp="1583949178144" />
+    <state width="1943" height="223" key="GridCell.Tab.3.right" timestamp="1583949178145">
+      <screen x="1982" y="-81" width="1986" height="1152" />
+    </state>
+    <state width="1943" height="223" key="GridCell.Tab.3.right/81.0.1839.1080/1982.-81.1986.1152@1982.-81.1986.1152" timestamp="1583949178145" />
+    <state x="503" y="185" key="SettingsEditor" timestamp="1583894997829">
+      <screen x="81" y="0" width="1839" height="1080" />
+    </state>
+    <state x="503" y="185" key="SettingsEditor/81.0.1839.1080/1982.-81.1986.1152@81.0.1839.1080" timestamp="1583894997829" />
+    <state x="2682" y="322" key="com.intellij.ide.util.TipDialog" timestamp="1583932685924">
+      <screen x="1982" y="-81" width="1986" height="1152" />
+    </state>
+    <state x="2682" y="322" key="com.intellij.ide.util.TipDialog/81.0.1839.1080/1982.-81.1986.1152@1982.-81.1986.1152" timestamp="1583932685924" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/mud$_START.coverage" NAME="-START Coverage Results" MODIFIED="1583932695895" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Davennia" />
   </component>
 </project>

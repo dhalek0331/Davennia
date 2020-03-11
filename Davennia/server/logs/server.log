@@ -51,3 +51,195 @@
 20-03-10 13:02:06-05 Evennia Server successfully started.
 20-03-10 13:05:16-05 [SS] Authentication Success: dave(account 1) (IP: 127.0.0.1).
 20-03-10 13:05:16-05 [..] Logged in: dave(account 1) 127.0.0.1 (1 session(s) total)
+20-03-10 18:10:32-05 [..] Server disconnected from the portal.
+20-03-10 18:10:32-05 Main loop terminated.
+20-03-10 18:10:32-05 Server Shut Down.
+20-03-10 18:10:32-05 Server Shut Down.
+20-03-10 18:10:33-05 Loading z:\mud\evennia\evennia\server\server.py...
+20-03-10 18:10:35-05 Loaded.
+20-03-10 18:10:35-05 twistd 19.10.0 (z:\mud\evenv\scripts\python.exe 3.7.1) starting up.
+20-03-10 18:10:35-05 reactor class: twisted.internet.selectreactor.SelectReactor.
+20-03-10 18:10:35-05 Webserver starting on 4005
+20-03-10 18:10:35-05 Server successfully reloaded.
+20-03-10 18:10:35-05 [::] Traceback (most recent call last):
+20-03-10 18:10:35-05 [::]   File "z:\mud\evennia\evennia\commands\cmdsethandler.py", line 184, in import_cmdset
+20-03-10 18:10:35-05 [::]     raise exc.with_traceback(tb)
+20-03-10 18:10:35-05 [::]   File "z:\mud\evennia\evennia\commands\cmdsethandler.py", line 179, in import_cmdset
+20-03-10 18:10:35-05 [::]     module = import_module(modpath, package="evennia")
+20-03-10 18:10:35-05 [::]   File "d:\python\python37-32\lib\importlib\__init__.py", line 127, in import_module
+20-03-10 18:10:35-05 [::]     return _bootstrap._gcd_import(name[level:], package, level)
+20-03-10 18:10:35-05 [::]   File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+20-03-10 18:10:35-05 [::]   File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+20-03-10 18:10:35-05 [::]   File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+20-03-10 18:10:35-05 [::]   File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+20-03-10 18:10:35-05 [::]   File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+20-03-10 18:10:35-05 [::]   File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+20-03-10 18:10:35-05 [::]   File ".\commands\default_cmdsets.py", line 18, in <module>
+20-03-10 18:10:35-05 [::]     from evennia.commands.default.look2 import CmdTutorialLook2
+20-03-10 18:10:35-05 [::] ModuleNotFoundError: No module named 'evennia.commands.default.look2'
+20-03-10 18:10:35-05 [EE] Traceback (most recent call last):
+20-03-10 18:10:35-05 [EE]   File "z:\mud\evennia\evennia\commands\cmdsethandler.py", line 184, in import_cmdset
+20-03-10 18:10:35-05 [EE]     raise exc.with_traceback(tb)
+20-03-10 18:10:35-05 [EE]   File "z:\mud\evennia\evennia\commands\cmdsethandler.py", line 179, in import_cmdset
+20-03-10 18:10:35-05 [EE]     module = import_module(modpath, package="evennia")
+20-03-10 18:10:35-05 [EE]   File "d:\python\python37-32\lib\importlib\__init__.py", line 127, in import_module
+20-03-10 18:10:35-05 [EE]     return _bootstrap._gcd_import(name[level:], package, level)
+20-03-10 18:10:35-05 [EE]   File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+20-03-10 18:10:35-05 [EE]   File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+20-03-10 18:10:35-05 [EE]   File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+20-03-10 18:10:35-05 [EE]   File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+20-03-10 18:10:35-05 [EE]   File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+20-03-10 18:10:35-05 [EE]   File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+20-03-10 18:10:35-05 [EE]   File ".\commands\default_cmdsets.py", line 18, in <module>
+20-03-10 18:10:35-05 [EE]     from evennia.commands.default.look2 import CmdTutorialLook2
+20-03-10 18:10:35-05 [EE] ModuleNotFoundError: No module named 'evennia.commands.default.look2'
+20-03-10 18:10:35-05 [EE] 
+20-03-10 18:10:35-05 [EE] Error loading cmdset 'commands.default_cmdsets.SessionCmdSet'
+20-03-10 18:10:35-05 [EE] (Traceback was logged 20-03-10 18:10:35-05)
+20-03-10 18:10:35-05 [EE] 
+20-03-10 18:10:35-05 [EE] Error encountered for cmdset at path 'commands.default_cmdsets.SessionCmdSet'.
+20-03-10 18:10:35-05 [EE] Replacing with fallback 'evennia.commands.default.cmdset_session.SessionCmdSet'.
+20-03-10 18:12:02-05 [..] Server disconnected from the portal.
+20-03-10 18:12:02-05 Main loop terminated.
+20-03-10 18:12:02-05 Server Shut Down.
+20-03-10 18:12:02-05 Server Shut Down.
+20-03-10 18:12:10-05 Loading z:\mud\evennia\evennia\server\server.py...
+20-03-10 18:12:11-05 Loaded.
+20-03-10 18:12:11-05 twistd 19.10.0 (z:\mud\evenv\scripts\python.exe 3.7.1) starting up.
+20-03-10 18:12:11-05 reactor class: twisted.internet.selectreactor.SelectReactor.
+20-03-10 18:12:11-05 Webserver starting on 4005
+20-03-10 18:12:11-05 Evennia Server successfully started.
+20-03-10 18:12:32-05 [SS] Authentication Success: dave(account 1) (IP: 127.0.0.1).
+20-03-10 18:12:32-05 [..] Logged in: dave(account 1) 127.0.0.1 (1 session(s) total)
+20-03-10 18:12:33-05 Look2 --> 
+20-03-10 18:12:40-05 Look2 --> 
+20-03-10 18:12:42-05 Look2 --> me
+20-03-10 18:17:41-05 Look2 --> me
+20-03-10 18:18:08-05 [..] Server disconnected from the portal.
+20-03-10 18:18:08-05 Main loop terminated.
+20-03-10 18:18:08-05 Server Shut Down.
+20-03-10 18:18:08-05 Server Shut Down.
+20-03-10 18:18:08-05 Loading z:\mud\evennia\evennia\server\server.py...
+20-03-10 18:18:10-05 Loaded.
+20-03-10 18:18:10-05 twistd 19.10.0 (z:\mud\evenv\scripts\python.exe 3.7.1) starting up.
+20-03-10 18:18:10-05 reactor class: twisted.internet.selectreactor.SelectReactor.
+20-03-10 18:18:10-05 Webserver starting on 4005
+20-03-10 18:18:10-05 Server successfully reloaded.
+20-03-10 18:18:41-05 Look2 --> me
+20-03-10 18:20:20-05 [..] Server disconnected from the portal.
+20-03-10 18:20:20-05 Main loop terminated.
+20-03-10 18:20:20-05 Server Shut Down.
+20-03-10 18:20:20-05 Server Shut Down.
+20-03-10 18:20:29-05 Loading z:\mud\evennia\evennia\server\server.py...
+20-03-10 18:20:30-05 Loaded.
+20-03-10 18:20:30-05 twistd 19.10.0 (z:\mud\evenv\scripts\python.exe 3.7.1) starting up.
+20-03-10 18:20:30-05 reactor class: twisted.internet.selectreactor.SelectReactor.
+20-03-10 18:20:30-05 Webserver starting on 4005
+20-03-10 18:20:30-05 Evennia Server successfully started.
+20-03-10 18:21:32-05 [SS] Authentication Success: dave(account 1) (IP: 127.0.0.1).
+20-03-10 18:21:32-05 [..] Logged in: dave(account 1) 127.0.0.1 (1 session(s) total)
+20-03-10 18:21:43-05 [..] Server disconnected from the portal.
+20-03-10 18:21:43-05 Main loop terminated.
+20-03-10 18:21:43-05 Server Shut Down.
+20-03-10 18:21:43-05 Server Shut Down.
+20-03-10 18:21:44-05 Loading z:\mud\evennia\evennia\server\server.py...
+20-03-10 18:21:45-05 Loaded.
+20-03-10 18:21:45-05 twistd 19.10.0 (z:\mud\evenv\scripts\python.exe 3.7.1) starting up.
+20-03-10 18:21:45-05 reactor class: twisted.internet.selectreactor.SelectReactor.
+20-03-10 18:21:45-05 Webserver starting on 4005
+20-03-10 18:21:45-05 Server successfully reloaded.
+20-03-10 18:21:54-05 Look2 --> me
+20-03-10 21:39:30-05 Loading z:\mud\evennia\evennia\server\server.py...
+20-03-10 21:39:31-05 Loaded.
+20-03-10 21:39:31-05 twistd 19.10.0 (z:\mud\evenv\scripts\python.exe 3.7.1) starting up.
+20-03-10 21:39:31-05 reactor class: twisted.internet.selectreactor.SelectReactor.
+20-03-10 21:39:31-05 Webserver starting on 4005
+20-03-10 21:39:31-05 Evennia Server successfully started.
+20-03-10 21:39:35-05 [..] Logged in: dave(account 1) 127.0.0.1 (1 session(s) total)
+20-03-10 21:52:01-05 Loading z:\mud\evennia\evennia\server\server.py...
+20-03-10 21:52:03-05 Loaded.
+20-03-10 21:52:03-05 twistd 19.10.0 (z:\mud\evenv\scripts\python.exe 3.7.1) starting up.
+20-03-10 21:52:03-05 reactor class: twisted.internet.selectreactor.SelectReactor.
+20-03-10 21:52:03-05 Webserver starting on 4005
+20-03-10 21:52:03-05 Evennia Server successfully started.
+20-03-10 21:52:06-05 [..] Logged in: dave(account 1) 127.0.0.1 (1 session(s) total)
+20-03-10 22:35:22-05 Look2 --> me
+20-03-10 22:35:52-05 Look2 --> me
+20-03-11 08:18:23-05 Loading z:\mud\evennia\evennia\server\server.py...
+20-03-11 08:18:25-05 Loaded.
+20-03-11 08:18:25-05 twistd 19.10.0 (z:\mud\evenv\scripts\python.exe 3.7.1) starting up.
+20-03-11 08:18:25-05 reactor class: twisted.internet.selectreactor.SelectReactor.
+20-03-11 08:18:25-05 Webserver starting on 4005
+20-03-11 08:18:25-05 Evennia Server successfully started.
+20-03-11 08:18:28-05 [..] Logged in: dave(account 1) 127.0.0.1 (1 session(s) total)
+20-03-11 08:19:17-05 Look2 --> 
+20-03-11 08:19:41-05 Look2 --> 
+20-03-11 09:09:21-05 [..] Server disconnected from the portal.
+20-03-11 09:09:21-05 Main loop terminated.
+20-03-11 09:09:21-05 Server Shut Down.
+20-03-11 09:09:21-05 Server Shut Down.
+20-03-11 09:09:22-05 Loading z:\mud\evennia\evennia\server\server.py...
+20-03-11 09:09:23-05 Loaded.
+20-03-11 09:09:23-05 twistd 19.10.0 (z:\mud\evenv\scripts\python.exe 3.7.1) starting up.
+20-03-11 09:09:23-05 reactor class: twisted.internet.selectreactor.SelectReactor.
+20-03-11 09:09:23-05 Webserver starting on 4005
+20-03-11 09:09:23-05 Server successfully reloaded.
+20-03-11 12:48:00-05 [..] Server disconnected from the portal.
+20-03-11 12:48:00-05 Main loop terminated.
+20-03-11 12:48:00-05 Server Shut Down.
+20-03-11 12:48:00-05 Server Shut Down.
+20-03-11 12:48:01-05 Loading z:\mud\evennia\evennia\server\server.py...
+20-03-11 12:48:02-05 Loaded.
+20-03-11 12:48:02-05 twistd 19.10.0 (z:\mud\evenv\scripts\python.exe 3.7.1) starting up.
+20-03-11 12:48:02-05 reactor class: twisted.internet.selectreactor.SelectReactor.
+20-03-11 12:48:02-05 Webserver starting on 4005
+20-03-11 12:48:02-05 Server successfully reloaded.
+20-03-11 12:48:02-05 [::] Traceback (most recent call last):
+20-03-11 12:48:02-05 [::]   File "z:\mud\evennia\evennia\commands\cmdsethandler.py", line 179, in import_cmdset
+20-03-11 12:48:02-05 [::]     module = import_module(modpath, package="evennia")
+20-03-11 12:48:02-05 [::]   File "d:\python\python37-32\lib\importlib\__init__.py", line 127, in import_module
+20-03-11 12:48:02-05 [::]     return _bootstrap._gcd_import(name[level:], package, level)
+20-03-11 12:48:02-05 [::]   File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+20-03-11 12:48:02-05 [::]   File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+20-03-11 12:48:02-05 [::]   File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+20-03-11 12:48:02-05 [::]   File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+20-03-11 12:48:02-05 [::]   File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+20-03-11 12:48:02-05 [::]   File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+20-03-11 12:48:02-05 [::]   File ".\commands\default_cmdsets.py", line 20, in <module>
+20-03-11 12:48:02-05 [::]     from Davennia.commands.general.cmdset_general import GeneralCommandSet
+20-03-11 12:48:02-05 [::]   File "Z:\mud\Davennia\commands\general\cmdset_general.py", line 12, in <module>
+20-03-11 12:48:02-05 [::]     class GeneralCommandSet(default_cmds.ChacterCmdSet):
+20-03-11 12:48:02-05 [::] AttributeError: 'DefaultCmds' object has no attribute 'ChacterCmdSet'
+20-03-11 12:48:02-05 [EE] Traceback (most recent call last):
+20-03-11 12:48:02-05 [EE]   File "z:\mud\evennia\evennia\commands\cmdsethandler.py", line 179, in import_cmdset
+20-03-11 12:48:02-05 [EE]     module = import_module(modpath, package="evennia")
+20-03-11 12:48:02-05 [EE]   File "d:\python\python37-32\lib\importlib\__init__.py", line 127, in import_module
+20-03-11 12:48:02-05 [EE]     return _bootstrap._gcd_import(name[level:], package, level)
+20-03-11 12:48:02-05 [EE]   File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+20-03-11 12:48:02-05 [EE]   File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+20-03-11 12:48:02-05 [EE]   File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+20-03-11 12:48:02-05 [EE]   File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+20-03-11 12:48:02-05 [EE]   File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+20-03-11 12:48:02-05 [EE]   File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+20-03-11 12:48:02-05 [EE]   File ".\commands\default_cmdsets.py", line 20, in <module>
+20-03-11 12:48:02-05 [EE]     from Davennia.commands.general.cmdset_general import GeneralCommandSet
+20-03-11 12:48:02-05 [EE]   File "Z:\mud\Davennia\commands\general\cmdset_general.py", line 12, in <module>
+20-03-11 12:48:02-05 [EE]     class GeneralCommandSet(default_cmds.ChacterCmdSet):
+20-03-11 12:48:02-05 [EE] AttributeError: 'DefaultCmds' object has no attribute 'ChacterCmdSet'
+20-03-11 12:48:02-05 [EE] 
+20-03-11 12:48:02-05 [EE] Compile/Run error when loading cmdset 'commands.default_cmdsets.SessionCmdSet'.",
+20-03-11 12:48:02-05 [EE] (Traceback was logged 20-03-11 12:48:02-05)
+20-03-11 12:48:02-05 [EE] 
+20-03-11 12:48:02-05 [EE] Error encountered for cmdset at path 'commands.default_cmdsets.SessionCmdSet'.
+20-03-11 12:48:02-05 [EE] Replacing with fallback 'evennia.commands.default.cmdset_session.SessionCmdSet'.
+20-03-11 12:49:29-05 [..] Server disconnected from the portal.
+20-03-11 12:49:29-05 Main loop terminated.
+20-03-11 12:49:29-05 Server Shut Down.
+20-03-11 12:49:29-05 Server Shut Down.
+20-03-11 12:49:29-05 Loading z:\mud\evennia\evennia\server\server.py...
+20-03-11 12:49:31-05 Loaded.
+20-03-11 12:49:31-05 twistd 19.10.0 (z:\mud\evenv\scripts\python.exe 3.7.1) starting up.
+20-03-11 12:49:31-05 reactor class: twisted.internet.selectreactor.SelectReactor.
+20-03-11 12:49:31-05 Webserver starting on 4005
+20-03-11 12:49:31-05 Server successfully reloaded.
+20-03-11 12:49:37-05 Look me -->

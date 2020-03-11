@@ -42,3 +42,18 @@ try:
     from server.conf.secret_settings import *
 except ImportError:
     print("secret_settings.py file not found or failed to import.")
+
+######################################################################
+# Customized command parser
+######################################################################
+# May need to set this in future:
+#COMMAND_PARSER = "Davennia.commands.cmdparser.cmdparser"
+
+# Single characters to ignore at the beginning of a command. When set, e.g.
+# cmd, @cmd and +cmd will all find a command "cmd" or one named "@cmd" etc. If
+# you have defined two different commands cmd and @cmd you can still enter
+# @cmd to exactly target the second one. Single-character commands consisting
+# of only a prefix character will not be stripped. Set to the empty
+# string ("") to turn off prefix ignore.
+# removed '@' from it
+CMD_IGNORE_PREFIXES = "@&/+"

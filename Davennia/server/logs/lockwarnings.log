@@ -24,3 +24,8 @@ LockHandler on Channel 'MudInfo' (None): access type 'send' changed from 'send:a
 20-03-07 17:17:20-06 [-] LockHandler on Channel 'Public' (None): access type 'control' changed from 'control:perm(Admin)' to 'control:perm(Admin)' 
 LockHandler on Channel 'Public' (None): access type 'listen' changed from 'listen:all()' to 'listen:all()' 
 LockHandler on Channel 'Public' (None): access type 'send' changed from 'send:all()' to 'send:all()'
+20-03-11 08:18:48-05 [-] LockHandler on Dave's Laboratory: access type 'get' changed from 'get:all()' to 'get:false()' 
+LockHandler on Dave's Laboratory: access type 'puppet' changed from 'puppet:pperm(Developer)' to 'puppet:false()'
+20-03-11 08:18:49-05 [-] LockHandler on Dave's Laboratory: access type 'control' changed from 'control:perm(Developer)' to 'control:id(1) or perm(Admin)' 
+LockHandler on Dave's Laboratory: access type 'delete' changed from 'delete:perm(Admin)' to ' delete:id(1) or perm(Admin)' 
+LockHandler on Dave's Laboratory: access type 'edit' changed from 'edit:perm(Admin)' to ' edit:id(1) or perm(Admin)'

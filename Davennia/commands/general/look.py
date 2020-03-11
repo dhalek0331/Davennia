@@ -1,4 +1,7 @@
-class CmdTutorialLook(default_cmds.CmdLook):
+# class CmdTutorialLook(default_cmds.CmdLook):
+from evennia import default_cmds
+
+class CmdLook(default_cmds.CmdLook):
     """
     looks at the room and on details
 
@@ -19,7 +22,9 @@ class CmdTutorialLook(default_cmds.CmdLook):
 
     # we don't need to specify key/locks etc, this is already
     # set by the parent.
-    help_category = "TutorialWorld"
+    help_category = "General"
+    key = "look"
+    aliases = ["l", "ls"]
 
     def func(self):
         """
@@ -28,6 +33,11 @@ class CmdTutorialLook(default_cmds.CmdLook):
         """
         caller = self.caller
         args = self.args
+        print("Look", args, "-->")
+        self.msg("===========================================\n")
+        self.msg(F"look \'{args}\'")
+        self.msg("===========================================\n")
+
         if args:
             # we use quiet=True to turn off automatic error reporting.
             # This tells search that we want to handle error messages
