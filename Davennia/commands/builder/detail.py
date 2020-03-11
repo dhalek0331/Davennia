@@ -1,7 +1,13 @@
+"""
 # for the @detail command we inherit from MuxCommand, since
 # we want to make use of MuxCommand's pre-parsing of '=' in the
 # argument.
-class CmdTutorialSetDetail(default_cmds.MuxCommand):
+"""
+
+from evennia import default_cmds
+#from evennia.commands.default import muxcommand
+
+class CmdDetail(default_cmds.MuxCommand):
     """
     sets a detail on a room
 

@@ -8,6 +8,7 @@ from evennia.commands.cmdset import CmdSet
 from evennia.commands.default import general, help, admin, system
 from evennia.commands.default import building
 from evennia.commands.default import batchprocess
+# from Davennia.commands.builder.cmdset_builder import BuilderCommandSet
 
 
 class CharacterCmdSet(CmdSet):

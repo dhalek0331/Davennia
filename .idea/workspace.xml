@@ -1,18 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="38f87f42-21d0-4a4b-8f43-0e487b7d8ff0" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Davennia/commands/general/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Davennia/commands/general/cmdset_general.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/mud.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/mud.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="38f87f42-21d0-4a4b-8f43-0e487b7d8ff0" name="Default" comment="setup general, builder directories and commandsets, also added look command (to show details)">
+      <change afterPath="$PROJECT_DIR$/Davennia/commands/builder/cmdset_builder.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Davennia/commands/default/look2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Davennia/commands/general/look.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Davennia/commands/builder/detail.py" beforeDir="false" afterPath="$PROJECT_DIR$/Davennia/commands/builder/detail.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Davennia/commands/default/cmdset_character.py" beforeDir="false" afterPath="$PROJECT_DIR$/Davennia/commands/default/cmdset_character.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Davennia/commands/default_cmdsets.py" beforeDir="false" afterPath="$PROJECT_DIR$/Davennia/commands/default_cmdsets.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Davennia/server/conf/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Davennia/server/conf/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Davennia/server/evennia.db3" beforeDir="false" afterPath="$PROJECT_DIR$/Davennia/server/evennia.db3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Davennia/server/logs/lockwarnings.log" beforeDir="false" afterPath="$PROJECT_DIR$/Davennia/server/logs/lockwarnings.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Davennia/server/logs/portal.log" beforeDir="false" afterPath="$PROJECT_DIR$/Davennia/server/logs/portal.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Davennia/server/logs/server.log" beforeDir="false" afterPath="$PROJECT_DIR$/Davennia/server/logs/server.log" afterDir="false" />
     </list>
@@ -306,7 +301,7 @@
       <option name="presentableId" value="Default" />
       <updated>1583623222358</updated>
       <workItem from="1583894880647" duration="900000" />
-      <workItem from="1583932670054" duration="6068000" />
+      <workItem from="1583932670054" duration="8013000" />
     </task>
     <task id="LOCAL-00001" summary="Commands detail, look2 (to see details)">
       <created>1583864998618</created>
@@ -315,7 +310,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583864998618</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="setup general, builder directories and commandsets, also added look command (to show details)">
+      <created>1583949246110</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1583949246110</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -327,77 +329,86 @@
       <path value="$PROJECT_DIR$/evennia" />
     </ignored-roots>
     <MESSAGE value="Commands detail, look2 (to see details)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commands detail, look2 (to see details)" />
+    <MESSAGE value="setup general, builder directories and commandsets, also added look command (to show details)" />
+    <option name="LAST_COMMIT_MESSAGE" value="setup general, builder directories and commandsets, also added look command (to show details)" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1943" height="223" key="GridCell.Tab.0.bottom" timestamp="1583949178144">
+    <state x="2626" y="93" key="CommitChangelistDialog2" timestamp="1583949239860">
       <screen x="1982" y="-81" width="1986" height="1152" />
     </state>
-    <state width="1943" height="223" key="GridCell.Tab.0.bottom/81.0.1839.1080/1982.-81.1986.1152@1982.-81.1986.1152" timestamp="1583949178144" />
-    <state width="1943" height="223" key="GridCell.Tab.0.center" timestamp="1583949178144">
+    <state x="2626" y="93" key="CommitChangelistDialog2/81.0.1839.1080/1982.-81.1986.1152@1982.-81.1986.1152" timestamp="1583949239860" />
+    <state width="1943" height="223" key="GridCell.Tab.0.bottom" timestamp="1583951468206">
       <screen x="1982" y="-81" width="1986" height="1152" />
     </state>
-    <state width="1943" height="223" key="GridCell.Tab.0.center/81.0.1839.1080/1982.-81.1986.1152@1982.-81.1986.1152" timestamp="1583949178144" />
-    <state width="1943" height="223" key="GridCell.Tab.0.left" timestamp="1583949178144">
+    <state width="1943" height="223" key="GridCell.Tab.0.bottom/81.0.1839.1080/1982.-81.1986.1152@1982.-81.1986.1152" timestamp="1583951468206" />
+    <state width="1943" height="223" key="GridCell.Tab.0.center" timestamp="1583951468206">
       <screen x="1982" y="-81" width="1986" height="1152" />
     </state>
-    <state width="1943" height="223" key="GridCell.Tab.0.left/81.0.1839.1080/1982.-81.1986.1152@1982.-81.1986.1152" timestamp="1583949178144" />
-    <state width="1943" height="223" key="GridCell.Tab.0.right" timestamp="1583949178144">
+    <state width="1943" height="223" key="GridCell.Tab.0.center/81.0.1839.1080/1982.-81.1986.1152@1982.-81.1986.1152" timestamp="1583951468206" />
+    <state width="1943" height="223" key="GridCell.Tab.0.left" timestamp="1583951468206">
       <screen x="1982" y="-81" width="1986" height="1152" />
     </state>
-    <state width="1943" height="223" key="GridCell.Tab.0.right/81.0.1839.1080/1982.-81.1986.1152@1982.-81.1986.1152" timestamp="1583949178144" />
-    <state width="1943" height="223" key="GridCell.Tab.1.bottom" timestamp="1583949178144">
+    <state width="1943" height="223" key="GridCell.Tab.0.left/81.0.1839.1080/1982.-81.1986.1152@1982.-81.1986.1152" timestamp="1583951468206" />
+    <state width="1943" height="223" key="GridCell.Tab.0.right" timestamp="1583951468206">
       <screen x="1982" y="-81" width="1986" height="1152" />
     </state>
-    <state width="1943" height="223" key="GridCell.Tab.1.bottom/81.0.1839.1080/1982.-81.1986.1152@1982.-81.1986.1152" timestamp="1583949178144" />
-    <state width="1943" height="223" key="GridCell.Tab.1.center" timestamp="1583949178144">
+    <state width="1943" height="223" key="GridCell.Tab.0.right/81.0.1839.1080/1982.-81.1986.1152@1982.-81.1986.1152" timestamp="1583951468206" />
+    <state width="1943" height="223" key="GridCell.Tab.1.bottom" timestamp="1583951468206">
       <screen x="1982" y="-81" width="1986" height="1152" />
     </state>
-    <state width="1943" height="223" key="GridCell.Tab.1.center/81.0.1839.1080/1982.-81.1986.1152@1982.-81.1986.1152" timestamp="1583949178144" />
-    <state width="1943" height="223" key="GridCell.Tab.1.left" timestamp="1583949178144">
+    <state width="1943" height="223" key="GridCell.Tab.1.bottom/81.0.1839.1080/1982.-81.1986.1152@1982.-81.1986.1152" timestamp="1583951468206" />
+    <state width="1943" height="223" key="GridCell.Tab.1.center" timestamp="1583951468206">
       <screen x="1982" y="-81" width="1986" height="1152" />
     </state>
-    <state width="1943" height="223" key="GridCell.Tab.1.left/81.0.1839.1080/1982.-81.1986.1152@1982.-81.1986.1152" timestamp="1583949178144" />
-    <state width="1943" height="223" key="GridCell.Tab.1.right" timestamp="1583949178144">
+    <state width="1943" height="223" key="GridCell.Tab.1.center/81.0.1839.1080/1982.-81.1986.1152@1982.-81.1986.1152" timestamp="1583951468206" />
+    <state width="1943" height="223" key="GridCell.Tab.1.left" timestamp="1583951468206">
       <screen x="1982" y="-81" width="1986" height="1152" />
     </state>
-    <state width="1943" height="223" key="GridCell.Tab.1.right/81.0.1839.1080/1982.-81.1986.1152@1982.-81.1986.1152" timestamp="1583949178144" />
-    <state width="1943" height="223" key="GridCell.Tab.2.bottom" timestamp="1583949178144">
+    <state width="1943" height="223" key="GridCell.Tab.1.left/81.0.1839.1080/1982.-81.1986.1152@1982.-81.1986.1152" timestamp="1583951468206" />
+    <state width="1943" height="223" key="GridCell.Tab.1.right" timestamp="1583951468206">
       <screen x="1982" y="-81" width="1986" height="1152" />
     </state>
-    <state width="1943" height="223" key="GridCell.Tab.2.bottom/81.0.1839.1080/1982.-81.1986.1152@1982.-81.1986.1152" timestamp="1583949178144" />
-    <state width="1943" height="223" key="GridCell.Tab.2.center" timestamp="1583949178144">
+    <state width="1943" height="223" key="GridCell.Tab.1.right/81.0.1839.1080/1982.-81.1986.1152@1982.-81.1986.1152" timestamp="1583951468206" />
+    <state width="1943" height="223" key="GridCell.Tab.2.bottom" timestamp="1583951468207">
       <screen x="1982" y="-81" width="1986" height="1152" />
     </state>
-    <state width="1943" height="223" key="GridCell.Tab.2.center/81.0.1839.1080/1982.-81.1986.1152@1982.-81.1986.1152" timestamp="1583949178144" />
-    <state width="1943" height="223" key="GridCell.Tab.2.left" timestamp="1583949178144">
+    <state width="1943" height="223" key="GridCell.Tab.2.bottom/81.0.1839.1080/1982.-81.1986.1152@1982.-81.1986.1152" timestamp="1583951468207" />
+    <state width="1943" height="223" key="GridCell.Tab.2.center" timestamp="1583951468206">
       <screen x="1982" y="-81" width="1986" height="1152" />
     </state>
-    <state width="1943" height="223" key="GridCell.Tab.2.left/81.0.1839.1080/1982.-81.1986.1152@1982.-81.1986.1152" timestamp="1583949178144" />
-    <state width="1943" height="223" key="GridCell.Tab.2.right" timestamp="1583949178144">
+    <state width="1943" height="223" key="GridCell.Tab.2.center/81.0.1839.1080/1982.-81.1986.1152@1982.-81.1986.1152" timestamp="1583951468206" />
+    <state width="1943" height="223" key="GridCell.Tab.2.left" timestamp="1583951468206">
       <screen x="1982" y="-81" width="1986" height="1152" />
     </state>
-    <state width="1943" height="223" key="GridCell.Tab.2.right/81.0.1839.1080/1982.-81.1986.1152@1982.-81.1986.1152" timestamp="1583949178144" />
-    <state width="1943" height="223" key="GridCell.Tab.3.bottom" timestamp="1583949178145">
+    <state width="1943" height="223" key="GridCell.Tab.2.left/81.0.1839.1080/1982.-81.1986.1152@1982.-81.1986.1152" timestamp="1583951468206" />
+    <state width="1943" height="223" key="GridCell.Tab.2.right" timestamp="1583951468206">
       <screen x="1982" y="-81" width="1986" height="1152" />
     </state>
-    <state width="1943" height="223" key="GridCell.Tab.3.bottom/81.0.1839.1080/1982.-81.1986.1152@1982.-81.1986.1152" timestamp="1583949178145" />
-    <state width="1943" height="223" key="GridCell.Tab.3.center" timestamp="1583949178145">
+    <state width="1943" height="223" key="GridCell.Tab.2.right/81.0.1839.1080/1982.-81.1986.1152@1982.-81.1986.1152" timestamp="1583951468206" />
+    <state width="1943" height="223" key="GridCell.Tab.3.bottom" timestamp="1583951468207">
       <screen x="1982" y="-81" width="1986" height="1152" />
     </state>
-    <state width="1943" height="223" key="GridCell.Tab.3.center/81.0.1839.1080/1982.-81.1986.1152@1982.-81.1986.1152" timestamp="1583949178145" />
-    <state width="1943" height="223" key="GridCell.Tab.3.left" timestamp="1583949178144">
+    <state width="1943" height="223" key="GridCell.Tab.3.bottom/81.0.1839.1080/1982.-81.1986.1152@1982.-81.1986.1152" timestamp="1583951468207" />
+    <state width="1943" height="223" key="GridCell.Tab.3.center" timestamp="1583951468207">
       <screen x="1982" y="-81" width="1986" height="1152" />
     </state>
-    <state width="1943" height="223" key="GridCell.Tab.3.left/81.0.1839.1080/1982.-81.1986.1152@1982.-81.1986.1152" timestamp="1583949178144" />
-    <state width="1943" height="223" key="GridCell.Tab.3.right" timestamp="1583949178145">
+    <state width="1943" height="223" key="GridCell.Tab.3.center/81.0.1839.1080/1982.-81.1986.1152@1982.-81.1986.1152" timestamp="1583951468207" />
+    <state width="1943" height="223" key="GridCell.Tab.3.left" timestamp="1583951468207">
       <screen x="1982" y="-81" width="1986" height="1152" />
     </state>
-    <state width="1943" height="223" key="GridCell.Tab.3.right/81.0.1839.1080/1982.-81.1986.1152@1982.-81.1986.1152" timestamp="1583949178145" />
+    <state width="1943" height="223" key="GridCell.Tab.3.left/81.0.1839.1080/1982.-81.1986.1152@1982.-81.1986.1152" timestamp="1583951468207" />
+    <state width="1943" height="223" key="GridCell.Tab.3.right" timestamp="1583951468207">
+      <screen x="1982" y="-81" width="1986" height="1152" />
+    </state>
+    <state width="1943" height="223" key="GridCell.Tab.3.right/81.0.1839.1080/1982.-81.1986.1152@1982.-81.1986.1152" timestamp="1583951468207" />
     <state x="503" y="185" key="SettingsEditor" timestamp="1583894997829">
       <screen x="81" y="0" width="1839" height="1080" />
     </state>
     <state x="503" y="185" key="SettingsEditor/81.0.1839.1080/1982.-81.1986.1152@81.0.1839.1080" timestamp="1583894997829" />
+    <state x="2567" y="230" key="Vcs.Push.Dialog.v2" timestamp="1583949250400">
+      <screen x="1982" y="-81" width="1986" height="1152" />
+    </state>
+    <state x="2567" y="230" key="Vcs.Push.Dialog.v2/81.0.1839.1080/1982.-81.1986.1152@1982.-81.1986.1152" timestamp="1583949250400" />
     <state x="2682" y="322" key="com.intellij.ide.util.TipDialog" timestamp="1583932685924">
       <screen x="1982" y="-81" width="1986" height="1152" />
     </state>

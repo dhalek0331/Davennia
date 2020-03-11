@@ -243,3 +243,23 @@
 20-03-11 12:49:31-05 Webserver starting on 4005
 20-03-11 12:49:31-05 Server successfully reloaded.
 20-03-11 12:49:37-05 Look me -->
+20-03-11 13:27:25-05 [..] Server disconnected from the portal.
+20-03-11 13:27:25-05 Main loop terminated.
+20-03-11 13:27:25-05 Server Shut Down.
+20-03-11 13:27:25-05 Server Shut Down.
+20-03-11 13:27:26-05 Loading z:\mud\evennia\evennia\server\server.py...
+20-03-11 13:27:28-05 Loaded.
+20-03-11 13:27:28-05 twistd 19.10.0 (z:\mud\evenv\scripts\python.exe 3.7.1) starting up.
+20-03-11 13:27:28-05 reactor class: twisted.internet.selectreactor.SelectReactor.
+20-03-11 13:27:28-05 Webserver starting on 4005
+20-03-11 13:27:28-05 Server successfully reloaded.
+20-03-11 13:30:51-05 [..] Server disconnected from the portal.
+20-03-11 13:30:51-05 Main loop terminated.
+20-03-11 13:30:51-05 Server Shut Down.
+20-03-11 13:30:51-05 Server Shut Down.
+20-03-11 13:30:51-05 Loading z:\mud\evennia\evennia\server\server.py...
+20-03-11 13:30:53-05 Loaded.
+20-03-11 13:30:53-05 twistd 19.10.0 (z:\mud\evenv\scripts\python.exe 3.7.1) starting up.
+20-03-11 13:30:53-05 reactor class: twisted.internet.selectreactor.SelectReactor.
+20-03-11 13:30:53-05 Webserver starting on 4005
+20-03-11 13:30:53-05 Server successfully reloaded.
