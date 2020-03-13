@@ -1,15 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="38f87f42-21d0-4a4b-8f43-0e487b7d8ff0" name="Default" comment="added override for teleport to alias goto">
+    <list default="true" id="38f87f42-21d0-4a4b-8f43-0e487b7d8ff0" name="Default" comment="added details methods to room, debugged details">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Davennia/commands/builder/detail.py" beforeDir="false" afterPath="$PROJECT_DIR$/Davennia/commands/builder/detail.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Davennia/commands/general/look.py" beforeDir="false" afterPath="$PROJECT_DIR$/Davennia/commands/general/look.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Davennia/server/evennia.db3" beforeDir="false" afterPath="$PROJECT_DIR$/Davennia/server/evennia.db3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Davennia/server/logs/lockwarnings.log" beforeDir="false" afterPath="$PROJECT_DIR$/Davennia/server/logs/lockwarnings.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Davennia/server/logs/portal.log" beforeDir="false" afterPath="$PROJECT_DIR$/Davennia/server/logs/portal.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Davennia/server/logs/server.log" beforeDir="false" afterPath="$PROJECT_DIR$/Davennia/server/logs/server.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Davennia/typeclasses/rooms.py" beforeDir="false" afterPath="$PROJECT_DIR$/Davennia/typeclasses/rooms.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -305,7 +298,7 @@
       <updated>1583623222358</updated>
       <workItem from="1583894880647" duration="900000" />
       <workItem from="1583932670054" duration="15049000" />
-      <workItem from="1584037027056" duration="11938000" />
+      <workItem from="1584037027056" duration="13324000" />
     </task>
     <task id="LOCAL-00001" summary="Commands detail, look2 (to see details)">
       <created>1583864998618</created>
@@ -335,7 +328,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584104690881</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="added details methods to room, debugged details">
+      <created>1584108685997</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1584108685997</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -350,77 +350,78 @@
     <MESSAGE value="setup general, builder directories and commandsets, also added look command (to show details)" />
     <MESSAGE value="Builder command set and detail command" />
     <MESSAGE value="added override for teleport to alias goto" />
-    <option name="LAST_COMMIT_MESSAGE" value="added override for teleport to alias goto" />
+    <MESSAGE value="added details methods to room, debugged details" />
+    <option name="LAST_COMMIT_MESSAGE" value="added details methods to room, debugged details" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2626" y="93" key="CommitChangelistDialog2" timestamp="1584104679193">
+    <state x="2626" y="93" key="CommitChangelistDialog2" timestamp="1584108680326">
       <screen x="1982" y="-81" width="1986" height="1152" />
     </state>
-    <state x="2626" y="93" key="CommitChangelistDialog2/81.0.1839.1080/1982.-81.1986.1152@1982.-81.1986.1152" timestamp="1584104679193" />
-    <state width="1943" height="223" key="GridCell.Tab.0.bottom" timestamp="1584108618141">
+    <state x="2626" y="93" key="CommitChangelistDialog2/81.0.1839.1080/1982.-81.1986.1152@1982.-81.1986.1152" timestamp="1584108680326" />
+    <state width="1943" height="223" key="GridCell.Tab.0.bottom" timestamp="1584116632381">
       <screen x="1982" y="-81" width="1986" height="1152" />
     </state>
-    <state width="1943" height="223" key="GridCell.Tab.0.bottom/81.0.1839.1080/1982.-81.1986.1152@1982.-81.1986.1152" timestamp="1584108618141" />
-    <state width="1943" height="223" key="GridCell.Tab.0.center" timestamp="1584108618141">
+    <state width="1943" height="223" key="GridCell.Tab.0.bottom/81.0.1839.1080/1982.-81.1986.1152@1982.-81.1986.1152" timestamp="1584116632381" />
+    <state width="1943" height="223" key="GridCell.Tab.0.center" timestamp="1584116632381">
       <screen x="1982" y="-81" width="1986" height="1152" />
     </state>
-    <state width="1943" height="223" key="GridCell.Tab.0.center/81.0.1839.1080/1982.-81.1986.1152@1982.-81.1986.1152" timestamp="1584108618141" />
-    <state width="1943" height="223" key="GridCell.Tab.0.left" timestamp="1584108618141">
+    <state width="1943" height="223" key="GridCell.Tab.0.center/81.0.1839.1080/1982.-81.1986.1152@1982.-81.1986.1152" timestamp="1584116632381" />
+    <state width="1943" height="223" key="GridCell.Tab.0.left" timestamp="1584116632381">
       <screen x="1982" y="-81" width="1986" height="1152" />
     </state>
-    <state width="1943" height="223" key="GridCell.Tab.0.left/81.0.1839.1080/1982.-81.1986.1152@1982.-81.1986.1152" timestamp="1584108618141" />
-    <state width="1943" height="223" key="GridCell.Tab.0.right" timestamp="1584108618141">
+    <state width="1943" height="223" key="GridCell.Tab.0.left/81.0.1839.1080/1982.-81.1986.1152@1982.-81.1986.1152" timestamp="1584116632381" />
+    <state width="1943" height="223" key="GridCell.Tab.0.right" timestamp="1584116632381">
       <screen x="1982" y="-81" width="1986" height="1152" />
     </state>
-    <state width="1943" height="223" key="GridCell.Tab.0.right/81.0.1839.1080/1982.-81.1986.1152@1982.-81.1986.1152" timestamp="1584108618141" />
-    <state width="1943" height="223" key="GridCell.Tab.1.bottom" timestamp="1584108618141">
+    <state width="1943" height="223" key="GridCell.Tab.0.right/81.0.1839.1080/1982.-81.1986.1152@1982.-81.1986.1152" timestamp="1584116632381" />
+    <state width="1943" height="223" key="GridCell.Tab.1.bottom" timestamp="1584116632381">
       <screen x="1982" y="-81" width="1986" height="1152" />
     </state>
-    <state width="1943" height="223" key="GridCell.Tab.1.bottom/81.0.1839.1080/1982.-81.1986.1152@1982.-81.1986.1152" timestamp="1584108618141" />
-    <state width="1943" height="223" key="GridCell.Tab.1.center" timestamp="1584108618141">
+    <state width="1943" height="223" key="GridCell.Tab.1.bottom/81.0.1839.1080/1982.-81.1986.1152@1982.-81.1986.1152" timestamp="1584116632381" />
+    <state width="1943" height="223" key="GridCell.Tab.1.center" timestamp="1584116632381">
       <screen x="1982" y="-81" width="1986" height="1152" />
     </state>
-    <state width="1943" height="223" key="GridCell.Tab.1.center/81.0.1839.1080/1982.-81.1986.1152@1982.-81.1986.1152" timestamp="1584108618141" />
-    <state width="1943" height="223" key="GridCell.Tab.1.left" timestamp="1584108618141">
+    <state width="1943" height="223" key="GridCell.Tab.1.center/81.0.1839.1080/1982.-81.1986.1152@1982.-81.1986.1152" timestamp="1584116632381" />
+    <state width="1943" height="223" key="GridCell.Tab.1.left" timestamp="1584116632381">
       <screen x="1982" y="-81" width="1986" height="1152" />
     </state>
-    <state width="1943" height="223" key="GridCell.Tab.1.left/81.0.1839.1080/1982.-81.1986.1152@1982.-81.1986.1152" timestamp="1584108618141" />
-    <state width="1943" height="223" key="GridCell.Tab.1.right" timestamp="1584108618141">
+    <state width="1943" height="223" key="GridCell.Tab.1.left/81.0.1839.1080/1982.-81.1986.1152@1982.-81.1986.1152" timestamp="1584116632381" />
+    <state width="1943" height="223" key="GridCell.Tab.1.right" timestamp="1584116632381">
       <screen x="1982" y="-81" width="1986" height="1152" />
     </state>
-    <state width="1943" height="223" key="GridCell.Tab.1.right/81.0.1839.1080/1982.-81.1986.1152@1982.-81.1986.1152" timestamp="1584108618141" />
-    <state width="1943" height="223" key="GridCell.Tab.2.bottom" timestamp="1584108618142">
+    <state width="1943" height="223" key="GridCell.Tab.1.right/81.0.1839.1080/1982.-81.1986.1152@1982.-81.1986.1152" timestamp="1584116632381" />
+    <state width="1943" height="223" key="GridCell.Tab.2.bottom" timestamp="1584116632382">
       <screen x="1982" y="-81" width="1986" height="1152" />
     </state>
-    <state width="1943" height="223" key="GridCell.Tab.2.bottom/81.0.1839.1080/1982.-81.1986.1152@1982.-81.1986.1152" timestamp="1584108618142" />
-    <state width="1943" height="223" key="GridCell.Tab.2.center" timestamp="1584108618141">
+    <state width="1943" height="223" key="GridCell.Tab.2.bottom/81.0.1839.1080/1982.-81.1986.1152@1982.-81.1986.1152" timestamp="1584116632382" />
+    <state width="1943" height="223" key="GridCell.Tab.2.center" timestamp="1584116632382">
       <screen x="1982" y="-81" width="1986" height="1152" />
     </state>
-    <state width="1943" height="223" key="GridCell.Tab.2.center/81.0.1839.1080/1982.-81.1986.1152@1982.-81.1986.1152" timestamp="1584108618141" />
-    <state width="1943" height="223" key="GridCell.Tab.2.left" timestamp="1584108618141">
+    <state width="1943" height="223" key="GridCell.Tab.2.center/81.0.1839.1080/1982.-81.1986.1152@1982.-81.1986.1152" timestamp="1584116632382" />
+    <state width="1943" height="223" key="GridCell.Tab.2.left" timestamp="1584116632382">
       <screen x="1982" y="-81" width="1986" height="1152" />
     </state>
-    <state width="1943" height="223" key="GridCell.Tab.2.left/81.0.1839.1080/1982.-81.1986.1152@1982.-81.1986.1152" timestamp="1584108618141" />
-    <state width="1943" height="223" key="GridCell.Tab.2.right" timestamp="1584108618141">
+    <state width="1943" height="223" key="GridCell.Tab.2.left/81.0.1839.1080/1982.-81.1986.1152@1982.-81.1986.1152" timestamp="1584116632382" />
+    <state width="1943" height="223" key="GridCell.Tab.2.right" timestamp="1584116632382">
       <screen x="1982" y="-81" width="1986" height="1152" />
     </state>
-    <state width="1943" height="223" key="GridCell.Tab.2.right/81.0.1839.1080/1982.-81.1986.1152@1982.-81.1986.1152" timestamp="1584108618141" />
-    <state width="1943" height="223" key="GridCell.Tab.3.bottom" timestamp="1584108618142">
+    <state width="1943" height="223" key="GridCell.Tab.2.right/81.0.1839.1080/1982.-81.1986.1152@1982.-81.1986.1152" timestamp="1584116632382" />
+    <state width="1943" height="223" key="GridCell.Tab.3.bottom" timestamp="1584116632382">
       <screen x="1982" y="-81" width="1986" height="1152" />
     </state>
-    <state width="1943" height="223" key="GridCell.Tab.3.bottom/81.0.1839.1080/1982.-81.1986.1152@1982.-81.1986.1152" timestamp="1584108618142" />
-    <state width="1943" height="223" key="GridCell.Tab.3.center" timestamp="1584108618142">
+    <state width="1943" height="223" key="GridCell.Tab.3.bottom/81.0.1839.1080/1982.-81.1986.1152@1982.-81.1986.1152" timestamp="1584116632382" />
+    <state width="1943" height="223" key="GridCell.Tab.3.center" timestamp="1584116632382">
       <screen x="1982" y="-81" width="1986" height="1152" />
     </state>
-    <state width="1943" height="223" key="GridCell.Tab.3.center/81.0.1839.1080/1982.-81.1986.1152@1982.-81.1986.1152" timestamp="1584108618142" />
-    <state width="1943" height="223" key="GridCell.Tab.3.left" timestamp="1584108618142">
+    <state width="1943" height="223" key="GridCell.Tab.3.center/81.0.1839.1080/1982.-81.1986.1152@1982.-81.1986.1152" timestamp="1584116632382" />
+    <state width="1943" height="223" key="GridCell.Tab.3.left" timestamp="1584116632382">
       <screen x="1982" y="-81" width="1986" height="1152" />
     </state>
-    <state width="1943" height="223" key="GridCell.Tab.3.left/81.0.1839.1080/1982.-81.1986.1152@1982.-81.1986.1152" timestamp="1584108618142" />
-    <state width="1943" height="223" key="GridCell.Tab.3.right" timestamp="1584108618142">
+    <state width="1943" height="223" key="GridCell.Tab.3.left/81.0.1839.1080/1982.-81.1986.1152@1982.-81.1986.1152" timestamp="1584116632382" />
+    <state width="1943" height="223" key="GridCell.Tab.3.right" timestamp="1584116632382">
       <screen x="1982" y="-81" width="1986" height="1152" />
     </state>
-    <state width="1943" height="223" key="GridCell.Tab.3.right/81.0.1839.1080/1982.-81.1986.1152@1982.-81.1986.1152" timestamp="1584108618142" />
+    <state width="1943" height="223" key="GridCell.Tab.3.right/81.0.1839.1080/1982.-81.1986.1152@1982.-81.1986.1152" timestamp="1584116632382" />
     <state x="503" y="185" key="SettingsEditor" timestamp="1583894997829">
       <screen x="81" y="0" width="1839" height="1080" />
     </state>
