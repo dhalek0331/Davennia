@@ -19,4 +19,40 @@ class Room(DefaultRoom):
     properties and methods available on all Objects.
     """
 
+    def at_object_creation(self):
+        self.db.details = { }
+        print("=====AT_ROOM_CREATION ENDED=====")
+
+    def return_detail(self, detailkey):
+        """
+        This looks for an Attribute "obj_details" and possibly
+        returns the value of it.
+
+        Args:
+            detailkey (str): The detail being looked at. This is
+                case-insensitive.
+
+        """
+        details = self.db.details
+        if details:
+            return details.get(detailkey.lower(), None)
+
+    def set_detail(self, detailkey, description):
+        """
+        This sets a new detail, using an Attribute "details".
+
+        Args:
+            detailkey (str): The detail identifier to add (for
+                aliases you need to add multiple keys to the
+                same description). Case-insensitive.
+            description (str): The text to return when looking
+                at the given detailkey.
+
+        """
+        if self.db.details:
+            self.db.details[detailkey.lower()] = description
+        else:
+            self.db.details = {detailkey.lower(): description}
+
+
     pass

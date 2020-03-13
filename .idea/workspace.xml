@@ -1,74 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="38f87f42-21d0-4a4b-8f43-0e487b7d8ff0" name="Default" comment="Builder command set and detail command">
-      <change afterPath="$PROJECT_DIR$/Davennia/commands/builder/teleport.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Davennia/web/character/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Davennia/web/character/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Davennia/web/character/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Davennia/web/character/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Davennia/web/character/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Davennia/web/character/templates/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Davennia/web/character/templates/character/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Davennia/web/character/templates/character/sheet.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Davennia/web/character/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Davennia/web/character/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Davennia/web/character/views.py" afterDir="false" />
+    <list default="true" id="38f87f42-21d0-4a4b-8f43-0e487b7d8ff0" name="Default" comment="added override for teleport to alias goto">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Davennia/commands/builder/cmdset_builder.py" beforeDir="false" afterPath="$PROJECT_DIR$/Davennia/commands/builder/cmdset_builder.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Davennia/server/conf/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Davennia/server/conf/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Davennia/commands/builder/detail.py" beforeDir="false" afterPath="$PROJECT_DIR$/Davennia/commands/builder/detail.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Davennia/commands/general/look.py" beforeDir="false" afterPath="$PROJECT_DIR$/Davennia/commands/general/look.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Davennia/server/evennia.db3" beforeDir="false" afterPath="$PROJECT_DIR$/Davennia/server/evennia.db3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Davennia/server/logs/lockwarnings.log" beforeDir="false" afterPath="$PROJECT_DIR$/Davennia/server/logs/lockwarnings.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Davennia/server/logs/portal.log" beforeDir="false" afterPath="$PROJECT_DIR$/Davennia/server/logs/portal.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Davennia/server/logs/server.log" beforeDir="false" afterPath="$PROJECT_DIR$/Davennia/server/logs/server.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Davennia/typeclasses/characters.py" beforeDir="false" afterPath="$PROJECT_DIR$/Davennia/typeclasses/characters.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Davennia/web/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Davennia/web/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Scripts/_asyncio.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Scripts/_asyncio.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Scripts/_bz2.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Scripts/_bz2.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Scripts/_contextvars.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Scripts/_contextvars.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Scripts/_ctypes.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Scripts/_ctypes.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Scripts/_ctypes_test.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Scripts/_ctypes_test.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Scripts/_decimal.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Scripts/_decimal.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Scripts/_distutils_findvs.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Scripts/_distutils_findvs.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Scripts/_elementtree.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Scripts/_elementtree.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Scripts/_hashlib.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Scripts/_hashlib.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Scripts/_lzma.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Scripts/_lzma.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Scripts/_msi.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Scripts/_msi.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Scripts/_multiprocessing.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Scripts/_multiprocessing.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Scripts/_overlapped.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Scripts/_overlapped.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Scripts/_queue.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Scripts/_queue.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Scripts/_socket.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Scripts/_socket.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Scripts/_sqlite3.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Scripts/_sqlite3.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Scripts/_ssl.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Scripts/_ssl.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Scripts/_testbuffer.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Scripts/_testbuffer.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Scripts/_testcapi.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Scripts/_testcapi.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Scripts/_testconsole.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Scripts/_testconsole.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Scripts/_testimportmultiple.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Scripts/_testimportmultiple.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Scripts/_testmultiphase.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Scripts/_testmultiphase.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Scripts/_tkinter.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Scripts/_tkinter.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Scripts/easy_install-3.7.exe" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Scripts/easy_install-3.7.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Scripts/easy_install.exe" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Scripts/easy_install.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Scripts/easy_install3.exe" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Scripts/easy_install3.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Scripts/libcrypto-1_1.dll" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Scripts/libcrypto-1_1.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Scripts/libssl-1_1.dll" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Scripts/libssl-1_1.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Scripts/pip-3.7.exe" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Scripts/pip-3.7.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Scripts/pip.exe" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Scripts/pip.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Scripts/pip3.exe" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Scripts/pip3.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Scripts/pyexpat.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Scripts/pyexpat.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Scripts/python.exe" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Scripts/python.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Scripts/python3.dll" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Scripts/python3.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Scripts/python37.dll" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Scripts/python37.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Scripts/pythonw.exe" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Scripts/pythonw.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Scripts/select.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Scripts/select.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Scripts/sqlite3.dll" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Scripts/sqlite3.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Scripts/tcl86t.dll" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Scripts/tcl86t.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Scripts/tk86t.dll" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Scripts/tk86t.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Scripts/unicodedata.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Scripts/unicodedata.pyd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Scripts/vcruntime140.dll" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Scripts/vcruntime140.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Scripts/wheel-3.7.exe" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Scripts/wheel-3.7.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Scripts/wheel.exe" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Scripts/wheel.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Scripts/wheel3.exe" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Scripts/wheel3.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Scripts/winsound.pyd" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Scripts/winsound.pyd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Davennia/typeclasses/rooms.py" beforeDir="false" afterPath="$PROJECT_DIR$/Davennia/typeclasses/rooms.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -364,7 +305,7 @@
       <updated>1583623222358</updated>
       <workItem from="1583894880647" duration="900000" />
       <workItem from="1583932670054" duration="15049000" />
-      <workItem from="1584037027056" duration="8057000" />
+      <workItem from="1584037027056" duration="11938000" />
     </task>
     <task id="LOCAL-00001" summary="Commands detail, look2 (to see details)">
       <created>1583864998618</created>
@@ -387,7 +328,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583951497051</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="added override for teleport to alias goto">
+      <created>1584104690881</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1584104690881</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -401,77 +349,78 @@
     <MESSAGE value="Commands detail, look2 (to see details)" />
     <MESSAGE value="setup general, builder directories and commandsets, also added look command (to show details)" />
     <MESSAGE value="Builder command set and detail command" />
-    <option name="LAST_COMMIT_MESSAGE" value="Builder command set and detail command" />
+    <MESSAGE value="added override for teleport to alias goto" />
+    <option name="LAST_COMMIT_MESSAGE" value="added override for teleport to alias goto" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2626" y="93" key="CommitChangelistDialog2" timestamp="1583951491841">
+    <state x="2626" y="93" key="CommitChangelistDialog2" timestamp="1584104679193">
       <screen x="1982" y="-81" width="1986" height="1152" />
     </state>
-    <state x="2626" y="93" key="CommitChangelistDialog2/81.0.1839.1080/1982.-81.1986.1152@1982.-81.1986.1152" timestamp="1583951491841" />
-    <state width="1943" height="223" key="GridCell.Tab.0.bottom" timestamp="1584104622864">
+    <state x="2626" y="93" key="CommitChangelistDialog2/81.0.1839.1080/1982.-81.1986.1152@1982.-81.1986.1152" timestamp="1584104679193" />
+    <state width="1943" height="223" key="GridCell.Tab.0.bottom" timestamp="1584108618141">
       <screen x="1982" y="-81" width="1986" height="1152" />
     </state>
-    <state width="1943" height="223" key="GridCell.Tab.0.bottom/81.0.1839.1080/1982.-81.1986.1152@1982.-81.1986.1152" timestamp="1584104622864" />
-    <state width="1943" height="223" key="GridCell.Tab.0.center" timestamp="1584104622864">
+    <state width="1943" height="223" key="GridCell.Tab.0.bottom/81.0.1839.1080/1982.-81.1986.1152@1982.-81.1986.1152" timestamp="1584108618141" />
+    <state width="1943" height="223" key="GridCell.Tab.0.center" timestamp="1584108618141">
       <screen x="1982" y="-81" width="1986" height="1152" />
     </state>
-    <state width="1943" height="223" key="GridCell.Tab.0.center/81.0.1839.1080/1982.-81.1986.1152@1982.-81.1986.1152" timestamp="1584104622864" />
-    <state width="1943" height="223" key="GridCell.Tab.0.left" timestamp="1584104622864">
+    <state width="1943" height="223" key="GridCell.Tab.0.center/81.0.1839.1080/1982.-81.1986.1152@1982.-81.1986.1152" timestamp="1584108618141" />
+    <state width="1943" height="223" key="GridCell.Tab.0.left" timestamp="1584108618141">
       <screen x="1982" y="-81" width="1986" height="1152" />
     </state>
-    <state width="1943" height="223" key="GridCell.Tab.0.left/81.0.1839.1080/1982.-81.1986.1152@1982.-81.1986.1152" timestamp="1584104622864" />
-    <state width="1943" height="223" key="GridCell.Tab.0.right" timestamp="1584104622864">
+    <state width="1943" height="223" key="GridCell.Tab.0.left/81.0.1839.1080/1982.-81.1986.1152@1982.-81.1986.1152" timestamp="1584108618141" />
+    <state width="1943" height="223" key="GridCell.Tab.0.right" timestamp="1584108618141">
       <screen x="1982" y="-81" width="1986" height="1152" />
     </state>
-    <state width="1943" height="223" key="GridCell.Tab.0.right/81.0.1839.1080/1982.-81.1986.1152@1982.-81.1986.1152" timestamp="1584104622864" />
-    <state width="1943" height="223" key="GridCell.Tab.1.bottom" timestamp="1584104622864">
+    <state width="1943" height="223" key="GridCell.Tab.0.right/81.0.1839.1080/1982.-81.1986.1152@1982.-81.1986.1152" timestamp="1584108618141" />
+    <state width="1943" height="223" key="GridCell.Tab.1.bottom" timestamp="1584108618141">
       <screen x="1982" y="-81" width="1986" height="1152" />
     </state>
-    <state width="1943" height="223" key="GridCell.Tab.1.bottom/81.0.1839.1080/1982.-81.1986.1152@1982.-81.1986.1152" timestamp="1584104622864" />
-    <state width="1943" height="223" key="GridCell.Tab.1.center" timestamp="1584104622864">
+    <state width="1943" height="223" key="GridCell.Tab.1.bottom/81.0.1839.1080/1982.-81.1986.1152@1982.-81.1986.1152" timestamp="1584108618141" />
+    <state width="1943" height="223" key="GridCell.Tab.1.center" timestamp="1584108618141">
       <screen x="1982" y="-81" width="1986" height="1152" />
     </state>
-    <state width="1943" height="223" key="GridCell.Tab.1.center/81.0.1839.1080/1982.-81.1986.1152@1982.-81.1986.1152" timestamp="1584104622864" />
-    <state width="1943" height="223" key="GridCell.Tab.1.left" timestamp="1584104622864">
+    <state width="1943" height="223" key="GridCell.Tab.1.center/81.0.1839.1080/1982.-81.1986.1152@1982.-81.1986.1152" timestamp="1584108618141" />
+    <state width="1943" height="223" key="GridCell.Tab.1.left" timestamp="1584108618141">
       <screen x="1982" y="-81" width="1986" height="1152" />
     </state>
-    <state width="1943" height="223" key="GridCell.Tab.1.left/81.0.1839.1080/1982.-81.1986.1152@1982.-81.1986.1152" timestamp="1584104622864" />
-    <state width="1943" height="223" key="GridCell.Tab.1.right" timestamp="1584104622864">
+    <state width="1943" height="223" key="GridCell.Tab.1.left/81.0.1839.1080/1982.-81.1986.1152@1982.-81.1986.1152" timestamp="1584108618141" />
+    <state width="1943" height="223" key="GridCell.Tab.1.right" timestamp="1584108618141">
       <screen x="1982" y="-81" width="1986" height="1152" />
     </state>
-    <state width="1943" height="223" key="GridCell.Tab.1.right/81.0.1839.1080/1982.-81.1986.1152@1982.-81.1986.1152" timestamp="1584104622864" />
-    <state width="1943" height="223" key="GridCell.Tab.2.bottom" timestamp="1584104622865">
+    <state width="1943" height="223" key="GridCell.Tab.1.right/81.0.1839.1080/1982.-81.1986.1152@1982.-81.1986.1152" timestamp="1584108618141" />
+    <state width="1943" height="223" key="GridCell.Tab.2.bottom" timestamp="1584108618142">
       <screen x="1982" y="-81" width="1986" height="1152" />
     </state>
-    <state width="1943" height="223" key="GridCell.Tab.2.bottom/81.0.1839.1080/1982.-81.1986.1152@1982.-81.1986.1152" timestamp="1584104622865" />
-    <state width="1943" height="223" key="GridCell.Tab.2.center" timestamp="1584104622864">
+    <state width="1943" height="223" key="GridCell.Tab.2.bottom/81.0.1839.1080/1982.-81.1986.1152@1982.-81.1986.1152" timestamp="1584108618142" />
+    <state width="1943" height="223" key="GridCell.Tab.2.center" timestamp="1584108618141">
       <screen x="1982" y="-81" width="1986" height="1152" />
     </state>
-    <state width="1943" height="223" key="GridCell.Tab.2.center/81.0.1839.1080/1982.-81.1986.1152@1982.-81.1986.1152" timestamp="1584104622864" />
-    <state width="1943" height="223" key="GridCell.Tab.2.left" timestamp="1584104622864">
+    <state width="1943" height="223" key="GridCell.Tab.2.center/81.0.1839.1080/1982.-81.1986.1152@1982.-81.1986.1152" timestamp="1584108618141" />
+    <state width="1943" height="223" key="GridCell.Tab.2.left" timestamp="1584108618141">
       <screen x="1982" y="-81" width="1986" height="1152" />
     </state>
-    <state width="1943" height="223" key="GridCell.Tab.2.left/81.0.1839.1080/1982.-81.1986.1152@1982.-81.1986.1152" timestamp="1584104622864" />
-    <state width="1943" height="223" key="GridCell.Tab.2.right" timestamp="1584104622865">
+    <state width="1943" height="223" key="GridCell.Tab.2.left/81.0.1839.1080/1982.-81.1986.1152@1982.-81.1986.1152" timestamp="1584108618141" />
+    <state width="1943" height="223" key="GridCell.Tab.2.right" timestamp="1584108618141">
       <screen x="1982" y="-81" width="1986" height="1152" />
     </state>
-    <state width="1943" height="223" key="GridCell.Tab.2.right/81.0.1839.1080/1982.-81.1986.1152@1982.-81.1986.1152" timestamp="1584104622865" />
-    <state width="1943" height="223" key="GridCell.Tab.3.bottom" timestamp="1584104622865">
+    <state width="1943" height="223" key="GridCell.Tab.2.right/81.0.1839.1080/1982.-81.1986.1152@1982.-81.1986.1152" timestamp="1584108618141" />
+    <state width="1943" height="223" key="GridCell.Tab.3.bottom" timestamp="1584108618142">
       <screen x="1982" y="-81" width="1986" height="1152" />
     </state>
-    <state width="1943" height="223" key="GridCell.Tab.3.bottom/81.0.1839.1080/1982.-81.1986.1152@1982.-81.1986.1152" timestamp="1584104622865" />
-    <state width="1943" height="223" key="GridCell.Tab.3.center" timestamp="1584104622865">
+    <state width="1943" height="223" key="GridCell.Tab.3.bottom/81.0.1839.1080/1982.-81.1986.1152@1982.-81.1986.1152" timestamp="1584108618142" />
+    <state width="1943" height="223" key="GridCell.Tab.3.center" timestamp="1584108618142">
       <screen x="1982" y="-81" width="1986" height="1152" />
     </state>
-    <state width="1943" height="223" key="GridCell.Tab.3.center/81.0.1839.1080/1982.-81.1986.1152@1982.-81.1986.1152" timestamp="1584104622865" />
-    <state width="1943" height="223" key="GridCell.Tab.3.left" timestamp="1584104622865">
+    <state width="1943" height="223" key="GridCell.Tab.3.center/81.0.1839.1080/1982.-81.1986.1152@1982.-81.1986.1152" timestamp="1584108618142" />
+    <state width="1943" height="223" key="GridCell.Tab.3.left" timestamp="1584108618142">
       <screen x="1982" y="-81" width="1986" height="1152" />
     </state>
-    <state width="1943" height="223" key="GridCell.Tab.3.left/81.0.1839.1080/1982.-81.1986.1152@1982.-81.1986.1152" timestamp="1584104622865" />
-    <state width="1943" height="223" key="GridCell.Tab.3.right" timestamp="1584104622865">
+    <state width="1943" height="223" key="GridCell.Tab.3.left/81.0.1839.1080/1982.-81.1986.1152@1982.-81.1986.1152" timestamp="1584108618142" />
+    <state width="1943" height="223" key="GridCell.Tab.3.right" timestamp="1584108618142">
       <screen x="1982" y="-81" width="1986" height="1152" />
     </state>
-    <state width="1943" height="223" key="GridCell.Tab.3.right/81.0.1839.1080/1982.-81.1986.1152@1982.-81.1986.1152" timestamp="1584104622865" />
+    <state width="1943" height="223" key="GridCell.Tab.3.right/81.0.1839.1080/1982.-81.1986.1152@1982.-81.1986.1152" timestamp="1584108618142" />
     <state x="503" y="185" key="SettingsEditor" timestamp="1583894997829">
       <screen x="81" y="0" width="1839" height="1080" />
     </state>
@@ -486,8 +435,8 @@
     <state x="2682" y="322" key="com.intellij.ide.util.TipDialog/81.0.1839.1080/1982.-81.1986.1152@1982.-81.1986.1152" timestamp="1584044332035" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/mud$_RESTART.coverage" NAME="-RESTART Coverage Results" MODIFIED="1584046277427" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Davennia" />
-    <SUITE FILE_PATH="coverage/mud$_STOP.coverage" NAME="-STOP Coverage Results" MODIFIED="1584046273385" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Davennia" />
+    <SUITE FILE_PATH="coverage/mud$_RESTART.coverage" NAME="-RESTART Coverage Results" MODIFIED="1584106678169" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Davennia" />
+    <SUITE FILE_PATH="coverage/mud$_STOP.coverage" NAME="-STOP Coverage Results" MODIFIED="1584106673477" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Davennia" />
     <SUITE FILE_PATH="coverage/mud$_START.coverage" NAME="-START Coverage Results" MODIFIED="1584044495915" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Davennia" />
   </component>
 </project>

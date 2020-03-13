@@ -387,3 +387,267 @@
 20-03-13 07:40:44-05 Server successfully reloaded.
 20-03-13 07:40:56-05 Look  -->
 20-03-13 07:42:44-05 Look  -->
+20-03-13 08:06:13-05 [..] Server disconnected from the portal.
+20-03-13 08:06:13-05 Main loop terminated.
+20-03-13 08:06:13-05 Server Shut Down.
+20-03-13 08:06:13-05 Server Shut Down.
+20-03-13 08:06:14-05 Loading z:\mud\evennia\evennia\server\server.py...
+20-03-13 08:06:15-05 Loaded.
+20-03-13 08:06:15-05 twistd 19.10.0 (z:\mud\evenv\scripts\python.exe 3.7.1) starting up.
+20-03-13 08:06:15-05 reactor class: twisted.internet.selectreactor.SelectReactor.
+20-03-13 08:06:15-05 Webserver starting on 4005
+20-03-13 08:06:15-05 Server successfully reloaded.
+20-03-13 08:08:49-05 [::] Traceback (most recent call last):
+20-03-13 08:08:49-05 [::]   File "z:\mud\evennia\evennia\commands\cmdhandler.py", line 634, in _run_command
+20-03-13 08:08:49-05 [::]     _progressive_cmd_run(cmd, ret)
+20-03-13 08:08:49-05 [::]   File "z:\mud\evennia\evennia\commands\cmdhandler.py", line 205, in _progressive_cmd_run
+20-03-13 08:08:49-05 [::]     value = next(generator)
+20-03-13 08:08:49-05 [::]   File "z:\mud\evennia\evennia\commands\default\building.py", line 2117, in func
+20-03-13 08:08:49-05 [::]     new_typeclass, clean_attributes=reset, clean_cmdsets=reset, run_start_hooks=hooks
+20-03-13 08:08:49-05 [::]   File "z:\mud\evennia\evennia\typeclasses\models.py", line 544, in swap_typeclass
+20-03-13 08:08:49-05 [::]     new_typeclass = class_from_module(new_typeclass, defaultpaths=settings.TYPECLASS_PATHS)
+20-03-13 08:08:49-05 [::]   File "z:\mud\evennia\evennia\utils\utils.py", line 1511, in class_from_module
+20-03-13 08:08:49-05 [::]     raise ImportError(err)
+20-03-13 08:08:49-05 [::] ImportError: 
+20-03-13 08:08:49-05 [::] Could not load typeclass 'Davennia.typeclasses.rooms'
+20-03-13 08:08:49-05 [::] Paths searched:
+20-03-13 08:08:49-05 [::]     Davennia.typeclasses.rooms
+20-03-13 08:08:49-05 [::]     typeclasses.Davennia.typeclasses.rooms
+20-03-13 08:08:49-05 [::]     evennia.Davennia.typeclasses.rooms
+20-03-13 08:08:49-05 [::]     evennia.contrib.Davennia.typeclasses.rooms
+20-03-13 08:08:49-05 [::]     evennia.contrib.tutorial_examples.Davennia.typeclasses.rooms
+20-03-13 08:08:49-05 [EE] User input was: 'typeclass here = Davennia.typeclasses.rooms'.
+20-03-13 08:09:42-05 Look  -->
+20-03-13 08:10:17-05 [::] Traceback (most recent call last):
+20-03-13 08:10:17-05 [::]   File "z:\mud\evennia\evennia\commands\cmdhandler.py", line 634, in _run_command
+20-03-13 08:10:17-05 [::]     _progressive_cmd_run(cmd, ret)
+20-03-13 08:10:17-05 [::]   File "z:\mud\evennia\evennia\commands\cmdhandler.py", line 205, in _progressive_cmd_run
+20-03-13 08:10:17-05 [::]     value = next(generator)
+20-03-13 08:10:17-05 [::]   File "z:\mud\evennia\evennia\commands\default\building.py", line 2117, in func
+20-03-13 08:10:17-05 [::]     new_typeclass, clean_attributes=reset, clean_cmdsets=reset, run_start_hooks=hooks
+20-03-13 08:10:17-05 [::]   File "z:\mud\evennia\evennia\typeclasses\models.py", line 544, in swap_typeclass
+20-03-13 08:10:17-05 [::]     new_typeclass = class_from_module(new_typeclass, defaultpaths=settings.TYPECLASS_PATHS)
+20-03-13 08:10:17-05 [::]   File "z:\mud\evennia\evennia\utils\utils.py", line 1511, in class_from_module
+20-03-13 08:10:17-05 [::]     raise ImportError(err)
+20-03-13 08:10:17-05 [::] ImportError: 
+20-03-13 08:10:17-05 [::] Could not load typeclass 'Davennia.typeclasses.rooms'
+20-03-13 08:10:17-05 [::] Paths searched:
+20-03-13 08:10:17-05 [::]     Davennia.typeclasses.rooms
+20-03-13 08:10:17-05 [::]     typeclasses.Davennia.typeclasses.rooms
+20-03-13 08:10:17-05 [::]     evennia.Davennia.typeclasses.rooms
+20-03-13 08:10:17-05 [::]     evennia.contrib.Davennia.typeclasses.rooms
+20-03-13 08:10:17-05 [::]     evennia.contrib.tutorial_examples.Davennia.typeclasses.rooms
+20-03-13 08:10:17-05 [EE] User input was: 'typeclass here = Davennia.typeclasses.rooms'.
+20-03-13 08:19:18-05 [..] Server disconnected from the portal.
+20-03-13 08:19:18-05 Main loop terminated.
+20-03-13 08:19:18-05 Server Shut Down.
+20-03-13 08:19:18-05 Server Shut Down.
+20-03-13 08:19:19-05 Loading z:\mud\evennia\evennia\server\server.py...
+20-03-13 08:19:20-05 Loaded.
+20-03-13 08:19:20-05 twistd 19.10.0 (z:\mud\evenv\scripts\python.exe 3.7.1) starting up.
+20-03-13 08:19:20-05 reactor class: twisted.internet.selectreactor.SelectReactor.
+20-03-13 08:19:20-05 Webserver starting on 4005
+20-03-13 08:19:20-05 Server successfully reloaded.
+20-03-13 08:19:56-05 [..] Server disconnected from the portal.
+20-03-13 08:19:56-05 Main loop terminated.
+20-03-13 08:19:56-05 Server Shut Down.
+20-03-13 08:19:56-05 Server Shut Down.
+20-03-13 08:19:57-05 Loading z:\mud\evennia\evennia\server\server.py...
+20-03-13 08:19:58-05 Loaded.
+20-03-13 08:19:58-05 twistd 19.10.0 (z:\mud\evenv\scripts\python.exe 3.7.1) starting up.
+20-03-13 08:19:58-05 reactor class: twisted.internet.selectreactor.SelectReactor.
+20-03-13 08:19:58-05 Webserver starting on 4005
+20-03-13 08:19:58-05 Server successfully reloaded.
+20-03-13 08:33:48-05 [..] Server disconnected from the portal.
+20-03-13 08:33:48-05 Main loop terminated.
+20-03-13 08:33:48-05 Server Shut Down.
+20-03-13 08:33:48-05 Server Shut Down.
+20-03-13 08:33:49-05 Loading z:\mud\evennia\evennia\server\server.py...
+20-03-13 08:33:51-05 Loaded.
+20-03-13 08:33:51-05 twistd 19.10.0 (z:\mud\evenv\scripts\python.exe 3.7.1) starting up.
+20-03-13 08:33:51-05 reactor class: twisted.internet.selectreactor.SelectReactor.
+20-03-13 08:33:51-05 Webserver starting on 4005
+20-03-13 08:33:51-05 Server successfully reloaded.
+20-03-13 08:35:03-05 [..] Server disconnected from the portal.
+20-03-13 08:35:03-05 Main loop terminated.
+20-03-13 08:35:03-05 Server Shut Down.
+20-03-13 08:35:03-05 Server Shut Down.
+20-03-13 08:35:04-05 Loading z:\mud\evennia\evennia\server\server.py...
+20-03-13 08:35:05-05 Loaded.
+20-03-13 08:35:05-05 twistd 19.10.0 (z:\mud\evenv\scripts\python.exe 3.7.1) starting up.
+20-03-13 08:35:05-05 reactor class: twisted.internet.selectreactor.SelectReactor.
+20-03-13 08:35:05-05 Webserver starting on 4005
+20-03-13 08:35:05-05 Server successfully reloaded.
+20-03-13 08:38:04-05 Loading z:\mud\evennia\evennia\server\server.py...
+20-03-13 08:38:06-05 Loaded.
+20-03-13 08:38:06-05 twistd 19.10.0 (z:\mud\evenv\scripts\python.exe 3.7.1) starting up.
+20-03-13 08:38:06-05 reactor class: twisted.internet.selectreactor.SelectReactor.
+20-03-13 08:38:06-05 Webserver starting on 4005
+20-03-13 08:38:06-05 Evennia Server successfully started.
+20-03-13 08:38:14-05 [..] Logged in: dave(account 1) 127.0.0.1 (1 session(s) total)
+20-03-13 08:38:23-05 Look  -->
+20-03-13 08:39:54-05 [..] Server disconnected from the portal.
+20-03-13 08:39:54-05 Main loop terminated.
+20-03-13 08:39:54-05 Server Shut Down.
+20-03-13 08:39:54-05 Server Shut Down.
+20-03-13 08:39:55-05 Loading z:\mud\evennia\evennia\server\server.py...
+20-03-13 08:39:56-05 Loaded.
+20-03-13 08:39:56-05 twistd 19.10.0 (z:\mud\evenv\scripts\python.exe 3.7.1) starting up.
+20-03-13 08:39:56-05 reactor class: twisted.internet.selectreactor.SelectReactor.
+20-03-13 08:39:56-05 Webserver starting on 4005
+20-03-13 08:39:56-05 Server successfully reloaded.
+20-03-13 08:39:59-05 Look  -->
+20-03-13 08:41:07-05 =====AT_ROOM_CREATION ENDED=====
+20-03-13 08:46:04-05 [..] Server disconnected from the portal.
+20-03-13 08:46:04-05 Main loop terminated.
+20-03-13 08:46:04-05 Server Shut Down.
+20-03-13 08:46:04-05 Server Shut Down.
+20-03-13 08:46:05-05 Loading z:\mud\evennia\evennia\server\server.py...
+20-03-13 08:46:06-05 Loaded.
+20-03-13 08:46:06-05 twistd 19.10.0 (z:\mud\evenv\scripts\python.exe 3.7.1) starting up.
+20-03-13 08:46:06-05 reactor class: twisted.internet.selectreactor.SelectReactor.
+20-03-13 08:46:06-05 Webserver starting on 4005
+20-03-13 08:46:06-05 Server successfully reloaded.
+20-03-13 08:48:26-05 Look salad -->
+20-03-13 08:48:26-05 [::] Traceback (most recent call last):
+20-03-13 08:48:26-05 [::]   File "z:\mud\evennia\evennia\commands\cmdhandler.py", line 631, in _run_command
+20-03-13 08:48:26-05 [::]     ret = cmd.func()
+20-03-13 08:48:26-05 [::]   File "Z:\mud\Davennia\commands\general\look.py", line 57, in func
+20-03-13 08:48:26-05 [::]     detail = self.obj.return_detail(args)
+20-03-13 08:48:26-05 [::] AttributeError: 'NoneType' object has no attribute 'return_detail'
+20-03-13 08:48:26-05 [EE] User input was: 'l salad'.
+20-03-13 08:48:54-05 [..] Server disconnected from the portal.
+20-03-13 08:48:54-05 Main loop terminated.
+20-03-13 08:48:54-05 Server Shut Down.
+20-03-13 08:48:54-05 Server Shut Down.
+20-03-13 08:48:55-05 Loading z:\mud\evennia\evennia\server\server.py...
+20-03-13 08:48:56-05 Loaded.
+20-03-13 08:48:56-05 twistd 19.10.0 (z:\mud\evenv\scripts\python.exe 3.7.1) starting up.
+20-03-13 08:48:56-05 reactor class: twisted.internet.selectreactor.SelectReactor.
+20-03-13 08:48:56-05 Webserver starting on 4005
+20-03-13 08:48:56-05 Server successfully reloaded.
+20-03-13 08:51:21-05 [..] Server disconnected from the portal.
+20-03-13 08:51:21-05 Main loop terminated.
+20-03-13 08:51:21-05 Server Shut Down.
+20-03-13 08:51:21-05 Server Shut Down.
+20-03-13 08:51:21-05 Loading z:\mud\evennia\evennia\server\server.py...
+20-03-13 08:51:23-05 Loaded.
+20-03-13 08:51:23-05 twistd 19.10.0 (z:\mud\evenv\scripts\python.exe 3.7.1) starting up.
+20-03-13 08:51:23-05 reactor class: twisted.internet.selectreactor.SelectReactor.
+20-03-13 08:51:23-05 Webserver starting on 4005
+20-03-13 08:51:23-05 Server successfully reloaded.
+20-03-13 08:51:28-05 Look here -->
+20-03-13 08:51:33-05 Look point -->
+20-03-13 08:51:33-05 [::] Traceback (most recent call last):
+20-03-13 08:51:33-05 [::]   File "z:\mud\evennia\evennia\commands\cmdhandler.py", line 631, in _run_command
+20-03-13 08:51:33-05 [::]     ret = cmd.func()
+20-03-13 08:51:33-05 [::]   File "Z:\mud\Davennia\commands\general\look.py", line 57, in func
+20-03-13 08:51:33-05 [::]     detail = self.obj.return_detail(args)
+20-03-13 08:51:33-05 [::] AttributeError: 'NoneType' object has no attribute 'return_detail'
+20-03-13 08:51:33-05 [EE] User input was: 'l point'.
+20-03-13 08:52:25-05 Look salad -->
+20-03-13 08:52:25-05 [::] Traceback (most recent call last):
+20-03-13 08:52:25-05 [::]   File "z:\mud\evennia\evennia\commands\cmdhandler.py", line 631, in _run_command
+20-03-13 08:52:25-05 [::]     ret = cmd.func()
+20-03-13 08:52:25-05 [::]   File "Z:\mud\Davennia\commands\general\look.py", line 57, in func
+20-03-13 08:52:25-05 [::]     detail = self.obj.return_detail(args)
+20-03-13 08:52:25-05 [::] AttributeError: 'NoneType' object has no attribute 'return_detail'
+20-03-13 08:52:25-05 [EE] User input was: 'l salad'.
+20-03-13 08:54:15-05 [..] Server disconnected from the portal.
+20-03-13 08:54:15-05 Main loop terminated.
+20-03-13 08:54:15-05 Server Shut Down.
+20-03-13 08:54:15-05 Server Shut Down.
+20-03-13 08:54:15-05 Loading z:\mud\evennia\evennia\server\server.py...
+20-03-13 08:54:17-05 Loaded.
+20-03-13 08:54:17-05 twistd 19.10.0 (z:\mud\evenv\scripts\python.exe 3.7.1) starting up.
+20-03-13 08:54:17-05 reactor class: twisted.internet.selectreactor.SelectReactor.
+20-03-13 08:54:17-05 Webserver starting on 4005
+20-03-13 08:54:17-05 Server successfully reloaded.
+20-03-13 08:54:20-05 Look salad -->
+20-03-13 08:54:20-05 ====> self.obj =====> None
+20-03-13 08:54:20-05 [::] Traceback (most recent call last):
+20-03-13 08:54:20-05 [::]   File "z:\mud\evennia\evennia\commands\cmdhandler.py", line 631, in _run_command
+20-03-13 08:54:20-05 [::]     ret = cmd.func()
+20-03-13 08:54:20-05 [::]   File "Z:\mud\Davennia\commands\general\look.py", line 58, in func
+20-03-13 08:54:20-05 [::]     detail = self.obj.return_detail(args)
+20-03-13 08:54:20-05 [::] AttributeError: 'NoneType' object has no attribute 'return_detail'
+20-03-13 08:54:20-05 [EE] User input was: 'l salad'.
+20-03-13 08:56:14-05 [..] Server disconnected from the portal.
+20-03-13 08:56:14-05 Main loop terminated.
+20-03-13 08:56:14-05 Server Shut Down.
+20-03-13 08:56:14-05 Server Shut Down.
+20-03-13 08:56:15-05 Loading z:\mud\evennia\evennia\server\server.py...
+20-03-13 08:56:17-05 Loaded.
+20-03-13 08:56:17-05 twistd 19.10.0 (z:\mud\evenv\scripts\python.exe 3.7.1) starting up.
+20-03-13 08:56:17-05 reactor class: twisted.internet.selectreactor.SelectReactor.
+20-03-13 08:56:17-05 Webserver starting on 4005
+20-03-13 08:56:17-05 Server successfully reloaded.
+20-03-13 08:56:18-05 Look salad -->
+20-03-13 08:56:18-05 ====> self.obj =====> None
+20-03-13 08:57:26-05 [..] Server disconnected from the portal.
+20-03-13 08:57:26-05 Main loop terminated.
+20-03-13 08:57:26-05 Server Shut Down.
+20-03-13 08:57:26-05 Server Shut Down.
+20-03-13 08:57:27-05 Loading z:\mud\evennia\evennia\server\server.py...
+20-03-13 08:57:28-05 Loaded.
+20-03-13 08:57:28-05 twistd 19.10.0 (z:\mud\evenv\scripts\python.exe 3.7.1) starting up.
+20-03-13 08:57:28-05 reactor class: twisted.internet.selectreactor.SelectReactor.
+20-03-13 08:57:28-05 Webserver starting on 4005
+20-03-13 08:57:28-05 Server successfully reloaded.
+20-03-13 09:06:29-05 [..] Server disconnected from the portal.
+20-03-13 09:06:29-05 Main loop terminated.
+20-03-13 09:06:29-05 Server Shut Down.
+20-03-13 09:06:29-05 Server Shut Down.
+20-03-13 09:06:30-05 Loading z:\mud\evennia\evennia\server\server.py...
+20-03-13 09:06:31-05 Loaded.
+20-03-13 09:06:31-05 twistd 19.10.0 (z:\mud\evenv\scripts\python.exe 3.7.1) starting up.
+20-03-13 09:06:31-05 reactor class: twisted.internet.selectreactor.SelectReactor.
+20-03-13 09:06:31-05 Webserver starting on 4005
+20-03-13 09:06:31-05 Server successfully reloaded.
+20-03-13 09:07:38-05 [..] Server disconnected from the portal.
+20-03-13 09:07:38-05 Main loop terminated.
+20-03-13 09:07:38-05 Server Shut Down.
+20-03-13 09:07:38-05 Server Shut Down.
+20-03-13 09:07:39-05 Loading z:\mud\evennia\evennia\server\server.py...
+20-03-13 09:07:40-05 Loaded.
+20-03-13 09:07:40-05 twistd 19.10.0 (z:\mud\evenv\scripts\python.exe 3.7.1) starting up.
+20-03-13 09:07:40-05 reactor class: twisted.internet.selectreactor.SelectReactor.
+20-03-13 09:07:40-05 Webserver starting on 4005
+20-03-13 09:07:40-05 Server successfully reloaded.
+20-03-13 09:07:40-05 [::] Traceback (most recent call last):
+20-03-13 09:07:40-05 [::]   File "z:\mud\evennia\evennia\commands\cmdhandler.py", line 631, in _run_command
+20-03-13 09:07:40-05 [::]     ret = cmd.func()
+20-03-13 09:07:40-05 [::]   File "Z:\mud\Davennia\commands\builder\detail.py", line 44, in func
+20-03-13 09:07:40-05 [::]     if not hasattr(self.location, "set_detail"):
+20-03-13 09:07:40-05 [::] AttributeError: 'CmdDetail' object has no attribute 'location'
+20-03-13 09:07:40-05 [EE] User input was: 'detail point = "There is none."'.
+20-03-13 09:08:07-05 [..] Server disconnected from the portal.
+20-03-13 09:08:07-05 Main loop terminated.
+20-03-13 09:08:07-05 Server Shut Down.
+20-03-13 09:08:07-05 Server Shut Down.
+20-03-13 09:08:07-05 Loading z:\mud\evennia\evennia\server\server.py...
+20-03-13 09:08:09-05 Loaded.
+20-03-13 09:08:09-05 twistd 19.10.0 (z:\mud\evenv\scripts\python.exe 3.7.1) starting up.
+20-03-13 09:08:09-05 reactor class: twisted.internet.selectreactor.SelectReactor.
+20-03-13 09:08:09-05 Webserver starting on 4005
+20-03-13 09:08:09-05 Server successfully reloaded.
+20-03-13 09:08:09-05 [::] Traceback (most recent call last):
+20-03-13 09:08:09-05 [::]   File "z:\mud\evennia\evennia\commands\cmdhandler.py", line 631, in _run_command
+20-03-13 09:08:09-05 [::]     ret = cmd.func()
+20-03-13 09:08:09-05 [::]   File "Z:\mud\Davennia\commands\builder\detail.py", line 50, in func
+20-03-13 09:08:09-05 [::]     self.obj.set_detail(key, self.rhs)
+20-03-13 09:08:09-05 [::] AttributeError: 'NoneType' object has no attribute 'set_detail'
+20-03-13 09:08:09-05 [EE] User input was: 'detail point = "There is none."'.
+20-03-13 09:08:57-05 [..] Server disconnected from the portal.
+20-03-13 09:08:57-05 Main loop terminated.
+20-03-13 09:08:57-05 Server Shut Down.
+20-03-13 09:08:57-05 Server Shut Down.
+20-03-13 09:08:58-05 Loading z:\mud\evennia\evennia\server\server.py...
+20-03-13 09:08:59-05 Loaded.
+20-03-13 09:08:59-05 twistd 19.10.0 (z:\mud\evenv\scripts\python.exe 3.7.1) starting up.
+20-03-13 09:08:59-05 reactor class: twisted.internet.selectreactor.SelectReactor.
+20-03-13 09:08:59-05 Webserver starting on 4005
+20-03-13 09:08:59-05 Server successfully reloaded.
+20-03-13 09:09:03-05 Look  -->
+20-03-13 09:09:06-05 Look point -->
+20-03-13 09:09:44-05 Look point -->

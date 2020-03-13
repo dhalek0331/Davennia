@@ -29,6 +29,7 @@ class CmdDetail(default_cmds.MuxCommand):
     """
 
     key = "@detail"
+    aliases = "details"
     locks = "cmd:perm(Builder)"
     help_category = "TutorialWorld"
 
@@ -40,11 +41,12 @@ class CmdDetail(default_cmds.MuxCommand):
         if not self.args or not self.rhs:
             self.caller.msg("Usage: @detail key = description")
             return
-        if not hasattr(self.obj, "set_detail"):
-            self.caller.msg("Details cannot be set on %s." % self.obj)
+        env = self.caller.location
+        if not hasattr(self.caller.location, "set_detail"):
+            self.caller.msg("Details cannot be set on %s." % self.caller.location)
             return
         for key in self.lhs.split(";"):
             # loop over all aliases, if any (if not, this will just be
             # the one key to loop over)
-            self.obj.set_detail(key, self.rhs)
+            env.set_detail(key, self.rhs)
         self.caller.msg("Detail set: '%s': '%s'" % (self.lhs, self.rhs))

@@ -54,7 +54,8 @@ class CmdLook(default_cmds.CmdLook):
             if len(looking_at_obj) != 1:
                 # no target found or more than one target found (multimatch)
                 # look for a detail that may match
-                detail = self.obj.return_detail(args)
+                env = self.caller.location
+                detail = env.return_detail(args)
                 if detail:
                     self.caller.msg(detail)
                     return
