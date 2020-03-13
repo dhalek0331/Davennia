@@ -57,3 +57,8 @@ except ImportError:
 # string ("") to turn off prefix ignore.
 # removed '@' from it
 CMD_IGNORE_PREFIXES = "@&/+"
+
+######################################################################
+# Web character view 
+######################################################################
+INSTALLED_APPS += ('web.character',)

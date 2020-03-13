@@ -8,6 +8,7 @@ of the existing ones.
 
 from evennia import default_cmds
 from Davennia.commands.builder.detail import CmdDetail
+from Davennia.commands.builder.teleport import CmdTeleport
 
 class BuilderCommandSet(default_cmds.CharacterCmdSet):
     """
@@ -22,3 +23,4 @@ class BuilderCommandSet(default_cmds.CharacterCmdSet):
         Populate command set
         """
         self.add(CmdDetail())
+        self.add(CmdTeleport())
