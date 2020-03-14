@@ -651,3 +651,150 @@
 20-03-13 09:09:03-05 Look  -->
 20-03-13 09:09:06-05 Look point -->
 20-03-13 09:09:44-05 Look point -->
+20-03-13 11:51:45-05 Loading z:\mud\evennia\evennia\server\server.py...
+20-03-13 11:51:47-05 Loaded.
+20-03-13 11:51:47-05 twistd 19.10.0 (z:\mud\evenv\scripts\python.exe 3.7.1) starting up.
+20-03-13 11:51:47-05 reactor class: twisted.internet.selectreactor.SelectReactor.
+20-03-13 11:51:47-05 Webserver starting on 4005
+20-03-13 11:51:47-05 Evennia Server successfully started.
+20-03-13 11:51:59-05 [..] Logged in: dave(account 1) 127.0.0.1 (1 session(s) total)
+20-03-13 13:44:32-05 [..] Server disconnected from the portal.
+20-03-13 13:44:32-05 Main loop terminated.
+20-03-13 13:44:32-05 Server Shut Down.
+20-03-13 13:44:32-05 Server Shut Down.
+Unhandled Error
+Traceback (most recent call last):
+  File "Z:\mud\evenv\Lib\site-packages\twisted\application\app.py", line 674, in run
+    runApp(config)
+  File "Z:\mud\evenv\Lib\site-packages\twisted\scripts\twistd.py", line 25, in runApp
+    runner.run()
+  File "Z:\mud\evenv\Lib\site-packages\twisted\application\app.py", line 381, in run
+    self.application = self.createOrGetApplication()
+  File "Z:\mud\evenv\Lib\site-packages\twisted\application\app.py", line 453, in createOrGetApplication
+    application = getApplication(self.config, passphrase)
+--- <exception caught here> ---
+  File "Z:\mud\evenv\Lib\site-packages\twisted\application\app.py", line 464, in getApplication
+    application = service.loadApplication(filename, style, passphrase)
+  File "Z:\mud\evenv\Lib\site-packages\twisted\application\service.py", line 416, in loadApplication
+    application = sob.loadValueFromFile(filename, 'application')
+  File "Z:\mud\evenv\Lib\site-packages\twisted\persisted\sob.py", line 177, in loadValueFromFile
+    eval(codeObj, d, d)
+  File "z:\mud\evennia\evennia\server\server.py", line 22, in <module>
+    django.setup()
+  File "Z:\mud\evenv\Lib\site-packages\django\__init__.py", line 24, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "Z:\mud\evenv\Lib\site-packages\django\apps\registry.py", line 95, in populate
+    "duplicates: %s" % app_config.label)
+django.core.exceptions.ImproperlyConfigured: Application labels aren't unique, duplicates: builder
+
+
+Failed to load application: Application labels aren't unique, duplicates: builder
+
+20-03-13 13:47:21-05 Loading z:\mud\evennia\evennia\server\server.py...
+20-03-13 13:47:22-05 Loaded.
+20-03-13 13:47:22-05 twistd 19.10.0 (z:\mud\evenv\scripts\python.exe 3.7.1) starting up.
+20-03-13 13:47:22-05 reactor class: twisted.internet.selectreactor.SelectReactor.
+20-03-13 13:47:22-05 Webserver starting on 4005
+20-03-13 13:47:22-05 Evennia Server successfully started.
+20-03-13 13:47:30-05 [..] Logged in: dave(account 1) 127.0.0.1 (1 session(s) total)
+20-03-13 13:51:57-05 [..] Server disconnected from the portal.
+20-03-13 13:51:57-05 Main loop terminated.
+20-03-13 13:51:57-05 Server Shut Down.
+20-03-13 13:51:57-05 Server Shut Down.
+20-03-13 13:52:03-05 Loading z:\mud\evennia\evennia\server\server.py...
+20-03-13 13:52:04-05 Loaded.
+20-03-13 13:52:04-05 twistd 19.10.0 (z:\mud\evenv\scripts\python.exe 3.7.1) starting up.
+20-03-13 13:52:04-05 reactor class: twisted.internet.selectreactor.SelectReactor.
+20-03-13 13:52:04-05 Webserver starting on 4005
+20-03-13 13:52:04-05 Evennia Server successfully started.
+20-03-13 13:52:12-05 [..] Logged in: dave(account 1) 127.0.0.1 (1 session(s) total)
+20-03-13 13:54:25-05 [..] Server disconnected from the portal.
+20-03-13 13:54:25-05 Main loop terminated.
+20-03-13 13:54:25-05 Server Shut Down.
+20-03-13 13:54:25-05 Server Shut Down.
+20-03-13 13:54:26-05 Loading z:\mud\evennia\evennia\server\server.py...
+20-03-13 13:54:27-05 Loaded.
+20-03-13 13:54:27-05 twistd 19.10.0 (z:\mud\evenv\scripts\python.exe 3.7.1) starting up.
+20-03-13 13:54:27-05 reactor class: twisted.internet.selectreactor.SelectReactor.
+20-03-13 13:54:27-05 Webserver starting on 4005
+20-03-13 13:54:27-05 Server successfully reloaded.
+20-03-13 13:55:59-05 Loading z:\mud\evennia\evennia\server\server.py...
+20-03-13 13:56:00-05 Loaded.
+20-03-13 13:56:00-05 twistd 19.10.0 (z:\mud\evenv\scripts\python.exe 3.7.1) starting up.
+20-03-13 13:56:00-05 reactor class: twisted.internet.selectreactor.SelectReactor.
+20-03-13 13:56:00-05 Webserver starting on 4005
+20-03-13 13:56:00-05 Evennia Server successfully started.
+20-03-13 13:57:48-05 [..] Logged in: dave(account 1) 127.0.0.1 (1 session(s) total)
+20-03-13 13:57:50-05 [..] Server disconnected from the portal.
+20-03-13 13:57:50-05 Main loop terminated.
+20-03-13 13:57:50-05 Server Shut Down.
+20-03-13 13:57:50-05 Server Shut Down.
+20-03-13 13:57:51-05 Loading z:\mud\evennia\evennia\server\server.py...
+20-03-13 13:57:52-05 Loaded.
+20-03-13 13:57:52-05 twistd 19.10.0 (z:\mud\evenv\scripts\python.exe 3.7.1) starting up.
+20-03-13 13:57:52-05 reactor class: twisted.internet.selectreactor.SelectReactor.
+20-03-13 13:57:52-05 Webserver starting on 4005
+20-03-13 13:57:52-05 Server successfully reloaded.
+20-03-13 13:58:24-05 [..] Logged out: dave(account 1) 127.0.0.1 (0 sessions(s) remaining)
+20-03-13 13:58:25-05 [..] Logged in: dave(account 1) 127.0.0.1 (1 session(s) total)
+20-03-13 13:58:41-05 [..] Server disconnected from the portal.
+20-03-13 13:58:41-05 Main loop terminated.
+20-03-13 13:58:41-05 Server Shut Down.
+20-03-13 13:58:41-05 Server Shut Down.
+20-03-13 13:58:41-05 Loading z:\mud\evennia\evennia\server\server.py...
+20-03-13 13:58:42-05 Loaded.
+20-03-13 13:58:42-05 twistd 19.10.0 (z:\mud\evenv\scripts\python.exe 3.7.1) starting up.
+20-03-13 13:58:42-05 reactor class: twisted.internet.selectreactor.SelectReactor.
+20-03-13 13:58:42-05 Webserver starting on 4005
+20-03-13 13:58:42-05 Server successfully reloaded.
+20-03-13 14:02:44-05 [..] Server disconnected from the portal.
+20-03-13 14:02:44-05 Main loop terminated.
+20-03-13 14:02:44-05 Server Shut Down.
+20-03-13 14:02:44-05 Server Shut Down.
+20-03-13 14:04:08-05 Loading z:\mud\evennia\evennia\server\server.py...
+20-03-13 14:04:09-05 Loaded.
+20-03-13 14:04:09-05 twistd 19.10.0 (z:\mud\evenv\scripts\python.exe 3.7.1) starting up.
+20-03-13 14:04:09-05 reactor class: twisted.internet.selectreactor.SelectReactor.
+20-03-13 14:04:09-05 Webserver starting on 4005
+20-03-13 14:04:09-05 Evennia Server successfully started.
+20-03-13 14:04:13-05 [..] Logged in: dave(account 1) 127.0.0.1 (1 session(s) total)
+20-03-14 17:42:47-05 [..] Server disconnected from the portal.
+20-03-14 17:42:47-05 Main loop terminated.
+20-03-14 17:42:47-05 Server Shut Down.
+20-03-14 17:42:47-05 Server Shut Down.
+20-03-14 17:42:48-05 Loading z:\mud\evennia\evennia\server\server.py...
+20-03-14 17:42:49-05 Loaded.
+20-03-14 17:42:49-05 twistd 19.10.0 (z:\mud\evenv\scripts\python.exe 3.7.1) starting up.
+20-03-14 17:42:49-05 reactor class: twisted.internet.selectreactor.SelectReactor.
+20-03-14 17:42:49-05 Webserver starting on 4005
+20-03-14 17:42:49-05 Server successfully reloaded.
+20-03-14 17:43:29-05 [..] Server disconnected from the portal.
+20-03-14 17:43:29-05 Main loop terminated.
+20-03-14 17:43:29-05 Server Shut Down.
+20-03-14 17:43:29-05 Server Shut Down.
+20-03-14 17:43:30-05 Loading z:\mud\evennia\evennia\server\server.py...
+20-03-14 17:43:31-05 Loaded.
+20-03-14 17:43:31-05 twistd 19.10.0 (z:\mud\evenv\scripts\python.exe 3.7.1) starting up.
+20-03-14 17:43:31-05 reactor class: twisted.internet.selectreactor.SelectReactor.
+20-03-14 17:43:31-05 Webserver starting on 4005
+20-03-14 17:43:31-05 Server successfully reloaded.
+20-03-14 17:48:09-05 [..] Server disconnected from the portal.
+20-03-14 17:48:09-05 Main loop terminated.
+20-03-14 17:48:09-05 Server Shut Down.
+20-03-14 17:48:09-05 Server Shut Down.
+20-03-14 17:48:10-05 Loading z:\mud\evennia\evennia\server\server.py...
+20-03-14 17:48:11-05 Loaded.
+20-03-14 17:48:11-05 twistd 19.10.0 (z:\mud\evenv\scripts\python.exe 3.7.1) starting up.
+20-03-14 17:48:11-05 reactor class: twisted.internet.selectreactor.SelectReactor.
+20-03-14 17:48:11-05 Webserver starting on 4005
+20-03-14 17:48:11-05 Server successfully reloaded.
+20-03-14 17:49:10-05 [..] Server disconnected from the portal.
+20-03-14 17:49:10-05 Main loop terminated.
+20-03-14 17:49:10-05 Server Shut Down.
+20-03-14 17:49:10-05 Server Shut Down.
+20-03-14 17:49:11-05 Loading z:\mud\evennia\evennia\server\server.py...
+20-03-14 17:49:12-05 Loaded.
+20-03-14 17:49:12-05 twistd 19.10.0 (z:\mud\evenv\scripts\python.exe 3.7.1) starting up.
+20-03-14 17:49:12-05 reactor class: twisted.internet.selectreactor.SelectReactor.
+20-03-14 17:49:12-05 Webserver starting on 4005
+20-03-14 17:49:12-05 Server successfully reloaded.

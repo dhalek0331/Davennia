@@ -18,6 +18,7 @@ from evennia import default_cmds
 
 from Davennia.commands.general.cmdset_general import GeneralCommandSet
 from Davennia.commands.builder.cmdset_builder import BuilderCommandSet
+from Davennia.commands.account.cmdset_account import AccountCommandSet
 
 
 class CharacterCmdSet(default_cmds.CharacterCmdSet):
@@ -39,6 +40,7 @@ class CharacterCmdSet(default_cmds.CharacterCmdSet):
         #
         self.add(GeneralCommandSet())
         self.add(BuilderCommandSet())
+        self.add(AccountCommandSet())
 
 class AccountCmdSet(default_cmds.AccountCmdSet):
     """
