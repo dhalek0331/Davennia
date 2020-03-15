@@ -1,168 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="38f87f42-21d0-4a4b-8f43-0e487b7d8ff0" name="Default" comment="added details methods to room, debugged details">
-      <change afterPath="$PROJECT_DIR$/Davennia/commands/account/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Davennia/commands/account/cmdset_account.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Davennia/commands/account/option.py" afterDir="false" />
+    <list default="true" id="38f87f42-21d0-4a4b-8f43-0e487b7d8ff0" name="Default" comment="option command for mapping color, etc">
+      <change afterPath="$PROJECT_DIR$/Davennia/typeclasses/character/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Davennia/typeclasses/character/character.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Davennia/commands/default_cmdsets.py" beforeDir="false" afterPath="$PROJECT_DIR$/Davennia/commands/default_cmdsets.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Davennia/commands/account/option.py" beforeDir="false" afterPath="$PROJECT_DIR$/Davennia/commands/account/option.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Davennia/server/conf/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Davennia/server/conf/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Davennia/server/evennia.db3" beforeDir="false" afterPath="$PROJECT_DIR$/Davennia/server/evennia.db3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Davennia/server/logs/portal.log" beforeDir="false" afterPath="$PROJECT_DIR$/Davennia/server/logs/portal.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Davennia/server/logs/server.log" beforeDir="false" afterPath="$PROJECT_DIR$/Davennia/server/logs/server.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Lib/site-packages/cryptography/x509/name.py" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Lib/site-packages/cryptography/x509/name.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Lib/site-packages/django/conf/locale/af/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Lib/site-packages/django/conf/locale/af/LC_MESSAGES/django.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Lib/site-packages/django/conf/locale/ar/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Lib/site-packages/django/conf/locale/ar/LC_MESSAGES/django.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Lib/site-packages/django/conf/locale/az/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Lib/site-packages/django/conf/locale/az/LC_MESSAGES/django.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Lib/site-packages/django/conf/locale/be/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Lib/site-packages/django/conf/locale/be/LC_MESSAGES/django.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Lib/site-packages/django/conf/locale/bg/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Lib/site-packages/django/conf/locale/bg/LC_MESSAGES/django.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Lib/site-packages/django/conf/locale/bn/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Lib/site-packages/django/conf/locale/bn/LC_MESSAGES/django.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Lib/site-packages/django/conf/locale/br/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Lib/site-packages/django/conf/locale/br/LC_MESSAGES/django.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Lib/site-packages/django/conf/locale/bs/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Lib/site-packages/django/conf/locale/bs/LC_MESSAGES/django.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Lib/site-packages/django/conf/locale/ca/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Lib/site-packages/django/conf/locale/ca/LC_MESSAGES/django.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Lib/site-packages/django/conf/locale/cs/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Lib/site-packages/django/conf/locale/cs/LC_MESSAGES/django.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Lib/site-packages/django/conf/locale/cy/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Lib/site-packages/django/conf/locale/cy/LC_MESSAGES/django.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Lib/site-packages/django/conf/locale/da/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Lib/site-packages/django/conf/locale/da/LC_MESSAGES/django.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Lib/site-packages/django/conf/locale/de/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Lib/site-packages/django/conf/locale/de/LC_MESSAGES/django.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Lib/site-packages/django/conf/locale/el/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Lib/site-packages/django/conf/locale/el/LC_MESSAGES/django.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Lib/site-packages/django/conf/locale/en/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Lib/site-packages/django/conf/locale/en/LC_MESSAGES/django.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Lib/site-packages/django/conf/locale/eo/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Lib/site-packages/django/conf/locale/eo/LC_MESSAGES/django.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Lib/site-packages/django/conf/locale/es/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Lib/site-packages/django/conf/locale/es/LC_MESSAGES/django.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Lib/site-packages/django/conf/locale/et/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Lib/site-packages/django/conf/locale/et/LC_MESSAGES/django.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Lib/site-packages/django/conf/locale/eu/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Lib/site-packages/django/conf/locale/eu/LC_MESSAGES/django.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Lib/site-packages/django/conf/locale/fa/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Lib/site-packages/django/conf/locale/fa/LC_MESSAGES/django.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Lib/site-packages/django/conf/locale/fi/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Lib/site-packages/django/conf/locale/fi/LC_MESSAGES/django.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Lib/site-packages/django/conf/locale/fr/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Lib/site-packages/django/conf/locale/fr/LC_MESSAGES/django.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Lib/site-packages/django/conf/locale/fy/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Lib/site-packages/django/conf/locale/fy/LC_MESSAGES/django.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Lib/site-packages/django/conf/locale/ga/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Lib/site-packages/django/conf/locale/ga/LC_MESSAGES/django.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Lib/site-packages/django/conf/locale/gd/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Lib/site-packages/django/conf/locale/gd/LC_MESSAGES/django.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Lib/site-packages/django/conf/locale/gl/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Lib/site-packages/django/conf/locale/gl/LC_MESSAGES/django.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Lib/site-packages/django/conf/locale/he/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Lib/site-packages/django/conf/locale/he/LC_MESSAGES/django.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Lib/site-packages/django/conf/locale/hi/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Lib/site-packages/django/conf/locale/hi/LC_MESSAGES/django.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Lib/site-packages/django/conf/locale/hr/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Lib/site-packages/django/conf/locale/hr/LC_MESSAGES/django.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Lib/site-packages/django/conf/locale/hu/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Lib/site-packages/django/conf/locale/hu/LC_MESSAGES/django.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Lib/site-packages/django/conf/locale/hy/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Lib/site-packages/django/conf/locale/hy/LC_MESSAGES/django.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Lib/site-packages/django/conf/locale/ia/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Lib/site-packages/django/conf/locale/ia/LC_MESSAGES/django.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Lib/site-packages/django/conf/locale/id/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Lib/site-packages/django/conf/locale/id/LC_MESSAGES/django.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Lib/site-packages/django/conf/locale/io/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Lib/site-packages/django/conf/locale/io/LC_MESSAGES/django.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Lib/site-packages/django/conf/locale/is/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Lib/site-packages/django/conf/locale/is/LC_MESSAGES/django.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Lib/site-packages/django/conf/locale/it/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Lib/site-packages/django/conf/locale/it/LC_MESSAGES/django.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Lib/site-packages/django/conf/locale/ja/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Lib/site-packages/django/conf/locale/ja/LC_MESSAGES/django.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Lib/site-packages/django/conf/locale/ka/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Lib/site-packages/django/conf/locale/ka/LC_MESSAGES/django.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Lib/site-packages/django/conf/locale/kk/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Lib/site-packages/django/conf/locale/kk/LC_MESSAGES/django.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Lib/site-packages/django/conf/locale/km/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Lib/site-packages/django/conf/locale/km/LC_MESSAGES/django.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Lib/site-packages/django/conf/locale/kn/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Lib/site-packages/django/conf/locale/kn/LC_MESSAGES/django.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Lib/site-packages/django/conf/locale/ko/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Lib/site-packages/django/conf/locale/ko/LC_MESSAGES/django.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Lib/site-packages/django/conf/locale/lb/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Lib/site-packages/django/conf/locale/lb/LC_MESSAGES/django.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Lib/site-packages/django/conf/locale/lt/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Lib/site-packages/django/conf/locale/lt/LC_MESSAGES/django.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Lib/site-packages/django/conf/locale/lv/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Lib/site-packages/django/conf/locale/lv/LC_MESSAGES/django.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Lib/site-packages/django/conf/locale/mk/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Lib/site-packages/django/conf/locale/mk/LC_MESSAGES/django.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Lib/site-packages/django/conf/locale/ml/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Lib/site-packages/django/conf/locale/ml/LC_MESSAGES/django.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Lib/site-packages/django/conf/locale/mn/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Lib/site-packages/django/conf/locale/mn/LC_MESSAGES/django.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Lib/site-packages/django/conf/locale/mr/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Lib/site-packages/django/conf/locale/mr/LC_MESSAGES/django.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Lib/site-packages/django/conf/locale/my/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Lib/site-packages/django/conf/locale/my/LC_MESSAGES/django.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Lib/site-packages/django/conf/locale/nb/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Lib/site-packages/django/conf/locale/nb/LC_MESSAGES/django.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Lib/site-packages/django/conf/locale/ne/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Lib/site-packages/django/conf/locale/ne/LC_MESSAGES/django.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Lib/site-packages/django/conf/locale/nl/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Lib/site-packages/django/conf/locale/nl/LC_MESSAGES/django.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Lib/site-packages/django/conf/locale/nn/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Lib/site-packages/django/conf/locale/nn/LC_MESSAGES/django.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Lib/site-packages/django/conf/locale/os/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Lib/site-packages/django/conf/locale/os/LC_MESSAGES/django.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Lib/site-packages/django/conf/locale/pa/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Lib/site-packages/django/conf/locale/pa/LC_MESSAGES/django.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Lib/site-packages/django/conf/locale/pl/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Lib/site-packages/django/conf/locale/pl/LC_MESSAGES/django.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Lib/site-packages/django/conf/locale/pt/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Lib/site-packages/django/conf/locale/pt/LC_MESSAGES/django.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Lib/site-packages/django/conf/locale/ro/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Lib/site-packages/django/conf/locale/ro/LC_MESSAGES/django.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Lib/site-packages/django/conf/locale/ru/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Lib/site-packages/django/conf/locale/ru/LC_MESSAGES/django.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Lib/site-packages/django/conf/locale/sk/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Lib/site-packages/django/conf/locale/sk/LC_MESSAGES/django.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Lib/site-packages/django/conf/locale/sl/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Lib/site-packages/django/conf/locale/sl/LC_MESSAGES/django.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Lib/site-packages/django/contrib/auth/locale/af/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Lib/site-packages/django/contrib/auth/locale/af/LC_MESSAGES/django.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Lib/site-packages/django/contrib/auth/locale/ar/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Lib/site-packages/django/contrib/auth/locale/ar/LC_MESSAGES/django.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Lib/site-packages/django/contrib/auth/locale/az/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Lib/site-packages/django/contrib/auth/locale/az/LC_MESSAGES/django.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Lib/site-packages/django/contrib/auth/locale/be/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Lib/site-packages/django/contrib/auth/locale/be/LC_MESSAGES/django.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Lib/site-packages/django/contrib/auth/locale/bg/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Lib/site-packages/django/contrib/auth/locale/bg/LC_MESSAGES/django.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Lib/site-packages/django/contrib/auth/locale/bn/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Lib/site-packages/django/contrib/auth/locale/bn/LC_MESSAGES/django.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Lib/site-packages/django/contrib/auth/locale/br/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Lib/site-packages/django/contrib/auth/locale/br/LC_MESSAGES/django.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Lib/site-packages/django/contrib/auth/locale/bs/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Lib/site-packages/django/contrib/auth/locale/bs/LC_MESSAGES/django.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Lib/site-packages/django/contrib/auth/locale/ca/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Lib/site-packages/django/contrib/auth/locale/ca/LC_MESSAGES/django.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Lib/site-packages/django/contrib/auth/locale/cs/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Lib/site-packages/django/contrib/auth/locale/cs/LC_MESSAGES/django.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Lib/site-packages/django/contrib/auth/locale/cy/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Lib/site-packages/django/contrib/auth/locale/cy/LC_MESSAGES/django.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Lib/site-packages/django/contrib/auth/locale/da/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Lib/site-packages/django/contrib/auth/locale/da/LC_MESSAGES/django.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Lib/site-packages/django/contrib/auth/locale/de/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Lib/site-packages/django/contrib/auth/locale/de/LC_MESSAGES/django.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Lib/site-packages/django/contrib/auth/locale/el/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Lib/site-packages/django/contrib/auth/locale/el/LC_MESSAGES/django.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Lib/site-packages/django/contrib/auth/locale/en/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Lib/site-packages/django/contrib/auth/locale/en/LC_MESSAGES/django.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Lib/site-packages/django/contrib/auth/locale/eo/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Lib/site-packages/django/contrib/auth/locale/eo/LC_MESSAGES/django.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Lib/site-packages/django/contrib/auth/locale/es/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Lib/site-packages/django/contrib/auth/locale/es/LC_MESSAGES/django.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Lib/site-packages/django/contrib/auth/locale/et/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Lib/site-packages/django/contrib/auth/locale/et/LC_MESSAGES/django.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Lib/site-packages/django/contrib/auth/locale/eu/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Lib/site-packages/django/contrib/auth/locale/eu/LC_MESSAGES/django.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Lib/site-packages/django/contrib/auth/locale/fa/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Lib/site-packages/django/contrib/auth/locale/fa/LC_MESSAGES/django.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Lib/site-packages/django/contrib/auth/locale/fi/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Lib/site-packages/django/contrib/auth/locale/fi/LC_MESSAGES/django.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Lib/site-packages/django/contrib/auth/locale/fr/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Lib/site-packages/django/contrib/auth/locale/fr/LC_MESSAGES/django.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Lib/site-packages/django/contrib/auth/locale/ga/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Lib/site-packages/django/contrib/auth/locale/ga/LC_MESSAGES/django.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Lib/site-packages/django/contrib/auth/locale/gd/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Lib/site-packages/django/contrib/auth/locale/gd/LC_MESSAGES/django.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Lib/site-packages/django/contrib/auth/locale/gl/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Lib/site-packages/django/contrib/auth/locale/gl/LC_MESSAGES/django.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Lib/site-packages/django/contrib/auth/locale/he/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Lib/site-packages/django/contrib/auth/locale/he/LC_MESSAGES/django.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Lib/site-packages/django/contrib/auth/locale/hi/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Lib/site-packages/django/contrib/auth/locale/hi/LC_MESSAGES/django.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Lib/site-packages/django/contrib/auth/locale/hr/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Lib/site-packages/django/contrib/auth/locale/hr/LC_MESSAGES/django.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Lib/site-packages/django/contrib/auth/locale/hu/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Lib/site-packages/django/contrib/auth/locale/hu/LC_MESSAGES/django.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Lib/site-packages/django/contrib/auth/locale/hy/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Lib/site-packages/django/contrib/auth/locale/hy/LC_MESSAGES/django.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Lib/site-packages/django/contrib/auth/locale/ia/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Lib/site-packages/django/contrib/auth/locale/ia/LC_MESSAGES/django.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Lib/site-packages/django/contrib/auth/locale/id/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Lib/site-packages/django/contrib/auth/locale/id/LC_MESSAGES/django.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Lib/site-packages/django/contrib/auth/locale/is/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Lib/site-packages/django/contrib/auth/locale/is/LC_MESSAGES/django.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Lib/site-packages/django/contrib/auth/locale/it/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Lib/site-packages/django/contrib/auth/locale/it/LC_MESSAGES/django.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Lib/site-packages/django/contrib/auth/locale/ja/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Lib/site-packages/django/contrib/auth/locale/ja/LC_MESSAGES/django.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Lib/site-packages/django/contrib/auth/locale/ka/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Lib/site-packages/django/contrib/auth/locale/ka/LC_MESSAGES/django.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Lib/site-packages/django/contrib/auth/locale/kk/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Lib/site-packages/django/contrib/auth/locale/kk/LC_MESSAGES/django.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Lib/site-packages/django/contrib/auth/locale/km/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Lib/site-packages/django/contrib/auth/locale/km/LC_MESSAGES/django.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Lib/site-packages/django/contrib/auth/locale/kn/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Lib/site-packages/django/contrib/auth/locale/kn/LC_MESSAGES/django.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Lib/site-packages/django/contrib/auth/locale/ko/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Lib/site-packages/django/contrib/auth/locale/ko/LC_MESSAGES/django.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Lib/site-packages/django/contrib/auth/locale/lt/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Lib/site-packages/django/contrib/auth/locale/lt/LC_MESSAGES/django.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Lib/site-packages/django/contrib/auth/locale/lv/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Lib/site-packages/django/contrib/auth/locale/lv/LC_MESSAGES/django.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Lib/site-packages/django/contrib/auth/locale/mk/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Lib/site-packages/django/contrib/auth/locale/mk/LC_MESSAGES/django.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Lib/site-packages/django/contrib/auth/locale/ml/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Lib/site-packages/django/contrib/auth/locale/ml/LC_MESSAGES/django.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Lib/site-packages/django/contrib/auth/locale/mn/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Lib/site-packages/django/contrib/auth/locale/mn/LC_MESSAGES/django.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Lib/site-packages/django/contrib/auth/locale/my/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Lib/site-packages/django/contrib/auth/locale/my/LC_MESSAGES/django.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Lib/site-packages/django/contrib/auth/locale/nb/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Lib/site-packages/django/contrib/auth/locale/nb/LC_MESSAGES/django.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Lib/site-packages/django/contrib/auth/locale/ne/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Lib/site-packages/django/contrib/auth/locale/ne/LC_MESSAGES/django.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Lib/site-packages/django/contrib/auth/locale/nl/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Lib/site-packages/django/contrib/auth/locale/nl/LC_MESSAGES/django.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Lib/site-packages/django/contrib/auth/locale/nn/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Lib/site-packages/django/contrib/auth/locale/nn/LC_MESSAGES/django.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Lib/site-packages/django/contrib/auth/locale/os/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Lib/site-packages/django/contrib/auth/locale/os/LC_MESSAGES/django.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Lib/site-packages/django/contrib/auth/locale/pa/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Lib/site-packages/django/contrib/auth/locale/pa/LC_MESSAGES/django.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Lib/site-packages/django/contrib/auth/locale/pl/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Lib/site-packages/django/contrib/auth/locale/pl/LC_MESSAGES/django.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Lib/site-packages/django/contrib/auth/locale/pt/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Lib/site-packages/django/contrib/auth/locale/pt/LC_MESSAGES/django.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Lib/site-packages/django/contrib/auth/locale/ro/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Lib/site-packages/django/contrib/auth/locale/ro/LC_MESSAGES/django.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Lib/site-packages/django/contrib/auth/password_validation.py" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Lib/site-packages/django/contrib/auth/password_validation.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Lib/site-packages/django/contrib/postgres/indexes.py" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Lib/site-packages/django/contrib/postgres/indexes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Lib/site-packages/pip/_vendor/pkg_resources/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Lib/site-packages/pip/_vendor/pkg_resources/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Lib/site-packages/pip/_vendor/requests/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Lib/site-packages/pip/_vendor/requests/utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Lib/site-packages/pip/_vendor/webencodings/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Lib/site-packages/pip/_vendor/webencodings/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Lib/site-packages/pkg_resources/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Lib/site-packages/pkg_resources/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Lib/site-packages/twisted/conch/manhole.py" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Lib/site-packages/twisted/conch/manhole.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Lib/site-packages/twisted/conch/telnet.py" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Lib/site-packages/twisted/conch/telnet.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Lib/site-packages/twisted/logger/_flatten.py" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Lib/site-packages/twisted/logger/_flatten.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Lib/site-packages/twisted/logger/_json.py" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Lib/site-packages/twisted/logger/_json.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Lib/site-packages/twisted/mail/interfaces.py" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Lib/site-packages/twisted/mail/interfaces.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Lib/site-packages/twisted/mail/pop3.py" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Lib/site-packages/twisted/mail/pop3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Lib/site-packages/twisted/mail/pop3client.py" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Lib/site-packages/twisted/mail/pop3client.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Lib/site-packages/twisted/mail/protocols.py" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Lib/site-packages/twisted/mail/protocols.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Lib/site-packages/twisted/mail/smtp.py" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Lib/site-packages/twisted/mail/smtp.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Lib/site-packages/twisted/mail/test/test_imap.py" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Lib/site-packages/twisted/mail/test/test_imap.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Lib/site-packages/twisted/pair/test/test_tuntap.py" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Lib/site-packages/twisted/pair/test/test_tuntap.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Lib/site-packages/twisted/pair/testing.py" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Lib/site-packages/twisted/pair/testing.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Lib/site-packages/twisted/python/_shellcomp.py" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Lib/site-packages/twisted/python/_shellcomp.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Lib/site-packages/twisted/python/_textattributes.py" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Lib/site-packages/twisted/python/_textattributes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Lib/site-packages/twisted/python/filepath.py" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Lib/site-packages/twisted/python/filepath.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Lib/site-packages/twisted/python/usage.py" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Lib/site-packages/twisted/python/usage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Lib/site-packages/twisted/test/test_paths.py" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Lib/site-packages/twisted/test/test_paths.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Lib/site-packages/twisted/web/_flatten.py" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Lib/site-packages/twisted/web/_flatten.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Lib/site-packages/twisted/web/sux.py" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Lib/site-packages/twisted/web/sux.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Lib/site-packages/twisted/web/test/test_flatten.py" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Lib/site-packages/twisted/web/test/test_flatten.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Lib/site-packages/twisted/web/test/test_stan.py" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Lib/site-packages/twisted/web/test/test_stan.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Lib/site-packages/twisted/web/test/test_static.py" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Lib/site-packages/twisted/web/test/test_static.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Lib/site-packages/twisted/web/test/test_util.py" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Lib/site-packages/twisted/web/test/test_util.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Lib/site-packages/twisted/words/protocols/irc.py" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Lib/site-packages/twisted/words/protocols/irc.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Lib/site-packages/twisted/words/protocols/jabber/jid.py" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Lib/site-packages/twisted/words/protocols/jabber/jid.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Lib/site-packages/twisted/words/protocols/jabber/xmpp_stringprep.py" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Lib/site-packages/twisted/words/protocols/jabber/xmpp_stringprep.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Lib/site-packages/twisted/words/xish/domish.py" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Lib/site-packages/twisted/words/xish/domish.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Lib/site-packages/twisted/words/xish/xpathparser.py" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Lib/site-packages/twisted/words/xish/xpathparser.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/evenv/Scripts/pywin32_postinstall.py" beforeDir="false" afterPath="$PROJECT_DIR$/evenv/Scripts/pywin32_postinstall.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -461,7 +308,7 @@
       <workItem from="1583894880647" duration="900000" />
       <workItem from="1583932670054" duration="15049000" />
       <workItem from="1584037027056" duration="13324000" />
-      <workItem from="1584126174674" duration="2519000" />
+      <workItem from="1584126174674" duration="5586000" />
     </task>
     <task id="LOCAL-00001" summary="Commands detail, look2 (to see details)">
       <created>1583864998618</created>
@@ -498,7 +345,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584108685997</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="option command for mapping color, etc">
+      <created>1584226236350</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1584226236350</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -514,101 +368,104 @@
     <MESSAGE value="Builder command set and detail command" />
     <MESSAGE value="added override for teleport to alias goto" />
     <MESSAGE value="added details methods to room, debugged details" />
-    <option name="LAST_COMMIT_MESSAGE" value="added details methods to room, debugged details" />
+    <MESSAGE value="option command for mapping color, etc" />
+    <option name="LAST_COMMIT_MESSAGE" value="option command for mapping color, etc" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2626" y="93" key="CommitChangelistDialog2" timestamp="1584108680326">
-      <screen x="1982" y="-81" width="1986" height="1152" />
+    <state x="677" y="163" key="CommitChangelistDialog2" timestamp="1584226233409">
+      <screen x="81" y="0" width="1839" height="1080" />
     </state>
     <state x="2626" y="93" key="CommitChangelistDialog2/81.0.1839.1080/1982.-81.1986.1152@1982.-81.1986.1152" timestamp="1584108680326" />
-    <state width="1796" height="223" key="GridCell.Tab.0.bottom" timestamp="1584226176726">
+    <state x="677" y="163" key="CommitChangelistDialog2/81.0.1839.1080/1982.-81.1986.1152@81.0.1839.1080" timestamp="1584226233409" />
+    <state width="1796" height="223" key="GridCell.Tab.0.bottom" timestamp="1584245693817">
       <screen x="81" y="0" width="1839" height="1080" />
     </state>
     <state width="1943" height="223" key="GridCell.Tab.0.bottom/81.0.1839.1080/1982.-81.1986.1152@1982.-81.1986.1152" timestamp="1584116632381" />
-    <state width="1796" height="223" key="GridCell.Tab.0.bottom/81.0.1839.1080/1982.-81.1986.1152@81.0.1839.1080" timestamp="1584226176726" />
-    <state width="1796" height="223" key="GridCell.Tab.0.center" timestamp="1584226176725">
+    <state width="1796" height="223" key="GridCell.Tab.0.bottom/81.0.1839.1080/1982.-81.1986.1152@81.0.1839.1080" timestamp="1584245693817" />
+    <state width="1796" height="223" key="GridCell.Tab.0.center" timestamp="1584245693817">
       <screen x="81" y="0" width="1839" height="1080" />
     </state>
     <state width="1943" height="223" key="GridCell.Tab.0.center/81.0.1839.1080/1982.-81.1986.1152@1982.-81.1986.1152" timestamp="1584116632381" />
-    <state width="1796" height="223" key="GridCell.Tab.0.center/81.0.1839.1080/1982.-81.1986.1152@81.0.1839.1080" timestamp="1584226176725" />
-    <state width="1796" height="223" key="GridCell.Tab.0.left" timestamp="1584226176725">
+    <state width="1796" height="223" key="GridCell.Tab.0.center/81.0.1839.1080/1982.-81.1986.1152@81.0.1839.1080" timestamp="1584245693817" />
+    <state width="1796" height="223" key="GridCell.Tab.0.left" timestamp="1584245693817">
       <screen x="81" y="0" width="1839" height="1080" />
     </state>
     <state width="1943" height="223" key="GridCell.Tab.0.left/81.0.1839.1080/1982.-81.1986.1152@1982.-81.1986.1152" timestamp="1584116632381" />
-    <state width="1796" height="223" key="GridCell.Tab.0.left/81.0.1839.1080/1982.-81.1986.1152@81.0.1839.1080" timestamp="1584226176725" />
-    <state width="1796" height="223" key="GridCell.Tab.0.right" timestamp="1584226176726">
+    <state width="1796" height="223" key="GridCell.Tab.0.left/81.0.1839.1080/1982.-81.1986.1152@81.0.1839.1080" timestamp="1584245693817" />
+    <state width="1796" height="223" key="GridCell.Tab.0.right" timestamp="1584245693817">
       <screen x="81" y="0" width="1839" height="1080" />
     </state>
     <state width="1943" height="223" key="GridCell.Tab.0.right/81.0.1839.1080/1982.-81.1986.1152@1982.-81.1986.1152" timestamp="1584116632381" />
-    <state width="1796" height="223" key="GridCell.Tab.0.right/81.0.1839.1080/1982.-81.1986.1152@81.0.1839.1080" timestamp="1584226176726" />
-    <state width="1796" height="223" key="GridCell.Tab.1.bottom" timestamp="1584226176726">
+    <state width="1796" height="223" key="GridCell.Tab.0.right/81.0.1839.1080/1982.-81.1986.1152@81.0.1839.1080" timestamp="1584245693817" />
+    <state width="1796" height="223" key="GridCell.Tab.1.bottom" timestamp="1584245693818">
       <screen x="81" y="0" width="1839" height="1080" />
     </state>
     <state width="1943" height="223" key="GridCell.Tab.1.bottom/81.0.1839.1080/1982.-81.1986.1152@1982.-81.1986.1152" timestamp="1584116632381" />
-    <state width="1796" height="223" key="GridCell.Tab.1.bottom/81.0.1839.1080/1982.-81.1986.1152@81.0.1839.1080" timestamp="1584226176726" />
-    <state width="1796" height="223" key="GridCell.Tab.1.center" timestamp="1584226176726">
+    <state width="1796" height="223" key="GridCell.Tab.1.bottom/81.0.1839.1080/1982.-81.1986.1152@81.0.1839.1080" timestamp="1584245693818" />
+    <state width="1796" height="223" key="GridCell.Tab.1.center" timestamp="1584245693817">
       <screen x="81" y="0" width="1839" height="1080" />
     </state>
     <state width="1943" height="223" key="GridCell.Tab.1.center/81.0.1839.1080/1982.-81.1986.1152@1982.-81.1986.1152" timestamp="1584116632381" />
-    <state width="1796" height="223" key="GridCell.Tab.1.center/81.0.1839.1080/1982.-81.1986.1152@81.0.1839.1080" timestamp="1584226176726" />
-    <state width="1796" height="223" key="GridCell.Tab.1.left" timestamp="1584226176726">
+    <state width="1796" height="223" key="GridCell.Tab.1.center/81.0.1839.1080/1982.-81.1986.1152@81.0.1839.1080" timestamp="1584245693817" />
+    <state width="1796" height="223" key="GridCell.Tab.1.left" timestamp="1584245693817">
       <screen x="81" y="0" width="1839" height="1080" />
     </state>
     <state width="1943" height="223" key="GridCell.Tab.1.left/81.0.1839.1080/1982.-81.1986.1152@1982.-81.1986.1152" timestamp="1584116632381" />
-    <state width="1796" height="223" key="GridCell.Tab.1.left/81.0.1839.1080/1982.-81.1986.1152@81.0.1839.1080" timestamp="1584226176726" />
-    <state width="1796" height="223" key="GridCell.Tab.1.right" timestamp="1584226176726">
+    <state width="1796" height="223" key="GridCell.Tab.1.left/81.0.1839.1080/1982.-81.1986.1152@81.0.1839.1080" timestamp="1584245693817" />
+    <state width="1796" height="223" key="GridCell.Tab.1.right" timestamp="1584245693818">
       <screen x="81" y="0" width="1839" height="1080" />
     </state>
     <state width="1943" height="223" key="GridCell.Tab.1.right/81.0.1839.1080/1982.-81.1986.1152@1982.-81.1986.1152" timestamp="1584116632381" />
-    <state width="1796" height="223" key="GridCell.Tab.1.right/81.0.1839.1080/1982.-81.1986.1152@81.0.1839.1080" timestamp="1584226176726" />
-    <state width="1796" height="223" key="GridCell.Tab.2.bottom" timestamp="1584226176726">
+    <state width="1796" height="223" key="GridCell.Tab.1.right/81.0.1839.1080/1982.-81.1986.1152@81.0.1839.1080" timestamp="1584245693818" />
+    <state width="1796" height="223" key="GridCell.Tab.2.bottom" timestamp="1584245693818">
       <screen x="81" y="0" width="1839" height="1080" />
     </state>
     <state width="1943" height="223" key="GridCell.Tab.2.bottom/81.0.1839.1080/1982.-81.1986.1152@1982.-81.1986.1152" timestamp="1584116632382" />
-    <state width="1796" height="223" key="GridCell.Tab.2.bottom/81.0.1839.1080/1982.-81.1986.1152@81.0.1839.1080" timestamp="1584226176726" />
-    <state width="1796" height="223" key="GridCell.Tab.2.center" timestamp="1584226176726">
+    <state width="1796" height="223" key="GridCell.Tab.2.bottom/81.0.1839.1080/1982.-81.1986.1152@81.0.1839.1080" timestamp="1584245693818" />
+    <state width="1796" height="223" key="GridCell.Tab.2.center" timestamp="1584245693818">
       <screen x="81" y="0" width="1839" height="1080" />
     </state>
     <state width="1943" height="223" key="GridCell.Tab.2.center/81.0.1839.1080/1982.-81.1986.1152@1982.-81.1986.1152" timestamp="1584116632382" />
-    <state width="1796" height="223" key="GridCell.Tab.2.center/81.0.1839.1080/1982.-81.1986.1152@81.0.1839.1080" timestamp="1584226176726" />
-    <state width="1796" height="223" key="GridCell.Tab.2.left" timestamp="1584226176726">
+    <state width="1796" height="223" key="GridCell.Tab.2.center/81.0.1839.1080/1982.-81.1986.1152@81.0.1839.1080" timestamp="1584245693818" />
+    <state width="1796" height="223" key="GridCell.Tab.2.left" timestamp="1584245693818">
       <screen x="81" y="0" width="1839" height="1080" />
     </state>
     <state width="1943" height="223" key="GridCell.Tab.2.left/81.0.1839.1080/1982.-81.1986.1152@1982.-81.1986.1152" timestamp="1584116632382" />
-    <state width="1796" height="223" key="GridCell.Tab.2.left/81.0.1839.1080/1982.-81.1986.1152@81.0.1839.1080" timestamp="1584226176726" />
-    <state width="1796" height="223" key="GridCell.Tab.2.right" timestamp="1584226176726">
+    <state width="1796" height="223" key="GridCell.Tab.2.left/81.0.1839.1080/1982.-81.1986.1152@81.0.1839.1080" timestamp="1584245693818" />
+    <state width="1796" height="223" key="GridCell.Tab.2.right" timestamp="1584245693818">
       <screen x="81" y="0" width="1839" height="1080" />
     </state>
     <state width="1943" height="223" key="GridCell.Tab.2.right/81.0.1839.1080/1982.-81.1986.1152@1982.-81.1986.1152" timestamp="1584116632382" />
-    <state width="1796" height="223" key="GridCell.Tab.2.right/81.0.1839.1080/1982.-81.1986.1152@81.0.1839.1080" timestamp="1584226176726" />
-    <state width="1796" height="223" key="GridCell.Tab.3.bottom" timestamp="1584226176726">
+    <state width="1796" height="223" key="GridCell.Tab.2.right/81.0.1839.1080/1982.-81.1986.1152@81.0.1839.1080" timestamp="1584245693818" />
+    <state width="1796" height="223" key="GridCell.Tab.3.bottom" timestamp="1584245693818">
       <screen x="81" y="0" width="1839" height="1080" />
     </state>
     <state width="1943" height="223" key="GridCell.Tab.3.bottom/81.0.1839.1080/1982.-81.1986.1152@1982.-81.1986.1152" timestamp="1584116632382" />
-    <state width="1796" height="223" key="GridCell.Tab.3.bottom/81.0.1839.1080/1982.-81.1986.1152@81.0.1839.1080" timestamp="1584226176726" />
-    <state width="1796" height="223" key="GridCell.Tab.3.center" timestamp="1584226176726">
+    <state width="1796" height="223" key="GridCell.Tab.3.bottom/81.0.1839.1080/1982.-81.1986.1152@81.0.1839.1080" timestamp="1584245693818" />
+    <state width="1796" height="223" key="GridCell.Tab.3.center" timestamp="1584245693818">
       <screen x="81" y="0" width="1839" height="1080" />
     </state>
     <state width="1943" height="223" key="GridCell.Tab.3.center/81.0.1839.1080/1982.-81.1986.1152@1982.-81.1986.1152" timestamp="1584116632382" />
-    <state width="1796" height="223" key="GridCell.Tab.3.center/81.0.1839.1080/1982.-81.1986.1152@81.0.1839.1080" timestamp="1584226176726" />
-    <state width="1796" height="223" key="GridCell.Tab.3.left" timestamp="1584226176726">
+    <state width="1796" height="223" key="GridCell.Tab.3.center/81.0.1839.1080/1982.-81.1986.1152@81.0.1839.1080" timestamp="1584245693818" />
+    <state width="1796" height="223" key="GridCell.Tab.3.left" timestamp="1584245693818">
       <screen x="81" y="0" width="1839" height="1080" />
     </state>
     <state width="1943" height="223" key="GridCell.Tab.3.left/81.0.1839.1080/1982.-81.1986.1152@1982.-81.1986.1152" timestamp="1584116632382" />
-    <state width="1796" height="223" key="GridCell.Tab.3.left/81.0.1839.1080/1982.-81.1986.1152@81.0.1839.1080" timestamp="1584226176726" />
-    <state width="1796" height="223" key="GridCell.Tab.3.right" timestamp="1584226176726">
+    <state width="1796" height="223" key="GridCell.Tab.3.left/81.0.1839.1080/1982.-81.1986.1152@81.0.1839.1080" timestamp="1584245693818" />
+    <state width="1796" height="223" key="GridCell.Tab.3.right" timestamp="1584245693818">
       <screen x="81" y="0" width="1839" height="1080" />
     </state>
     <state width="1943" height="223" key="GridCell.Tab.3.right/81.0.1839.1080/1982.-81.1986.1152@1982.-81.1986.1152" timestamp="1584116632382" />
-    <state width="1796" height="223" key="GridCell.Tab.3.right/81.0.1839.1080/1982.-81.1986.1152@81.0.1839.1080" timestamp="1584226176726" />
+    <state width="1796" height="223" key="GridCell.Tab.3.right/81.0.1839.1080/1982.-81.1986.1152@81.0.1839.1080" timestamp="1584245693818" />
     <state x="503" y="185" key="SettingsEditor" timestamp="1583894997829">
       <screen x="81" y="0" width="1839" height="1080" />
     </state>
     <state x="503" y="185" key="SettingsEditor/81.0.1839.1080/1982.-81.1986.1152@81.0.1839.1080" timestamp="1583894997829" />
-    <state x="2567" y="230" key="Vcs.Push.Dialog.v2" timestamp="1583949250400">
-      <screen x="1982" y="-81" width="1986" height="1152" />
+    <state x="623" y="292" key="Vcs.Push.Dialog.v2" timestamp="1584226310619">
+      <screen x="81" y="0" width="1839" height="1080" />
     </state>
     <state x="2567" y="230" key="Vcs.Push.Dialog.v2/81.0.1839.1080/1982.-81.1986.1152@1982.-81.1986.1152" timestamp="1583949250400" />
+    <state x="623" y="292" key="Vcs.Push.Dialog.v2/81.0.1839.1080/1982.-81.1986.1152@81.0.1839.1080" timestamp="1584226310619" />
     <state x="2682" y="322" key="com.intellij.ide.util.TipDialog" timestamp="1584044332035">
       <screen x="1982" y="-81" width="1986" height="1152" />
     </state>
@@ -621,6 +478,6 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/mud$_RESTART.coverage" NAME="-RESTART Coverage Results" MODIFIED="1584106678169" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Davennia" />
     <SUITE FILE_PATH="coverage/mud$_STOP.coverage" NAME="-STOP Coverage Results" MODIFIED="1584106673477" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Davennia" />
-    <SUITE FILE_PATH="coverage/mud$_START.coverage" NAME="-START Coverage Results" MODIFIED="1584126242650" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Davennia" />
+    <SUITE FILE_PATH="coverage/mud$_START.coverage" NAME="-START Coverage Results" MODIFIED="1584245123722" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Davennia" />
   </component>
 </project>

@@ -21,7 +21,7 @@ class CmdOption(default_cmds.CmdOption):
     """
 
     key = "@option"
-    aliases = "@options, option, options"
+    aliases = "@options"
     switch_options = ("save", "clear")
     locks = "cmd:all()"
 

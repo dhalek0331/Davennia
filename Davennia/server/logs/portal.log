@@ -270,3 +270,96 @@
 20-03-14 17:43:29-05  |Portal| Portal starting server ... ['z:\\mud\\evennia\\evennia\\server\\twistd.bat', '--python=z:\\mud\\evennia\\evennia\\server\\server.py']
 20-03-14 17:48:09-05  |Portal| Portal starting server ... ['z:\\mud\\evennia\\evennia\\server\\twistd.bat', '--python=z:\\mud\\evennia\\evennia\\server\\server.py']
 20-03-14 17:49:10-05  |Portal| Portal starting server ... ['z:\\mud\\evennia\\evennia\\server\\twistd.bat', '--python=z:\\mud\\evennia\\evennia\\server\\server.py']
+20-03-14 22:55:22-05  |Portal| Portal starting server ... ['z:\\mud\\evennia\\evennia\\server\\twistd.bat', '--python=z:\\mud\\evennia\\evennia\\server\\server.py']
+20-03-14 22:55:23-05  |Portal| [EE] AMP Error for b'MsgPortal2Server': Traceback (most recent call last):
+20-03-14 22:55:23-05  |Portal| [EE] --- <exception caught here> ---
+20-03-14 22:55:23-05  |Portal| [EE]   File "Z:\mud\evenv\Lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+20-03-14 22:55:23-05  |Portal| [EE]     current.result = callback(current.result, *args, **kw)
+20-03-14 22:55:23-05  |Portal| [EE]   File "Z:\mud\evenv\Lib\site-packages\twisted\protocols\amp.py", line 1989, in _massageError
+20-03-14 22:55:23-05  |Portal| [EE]     error.trap(RemoteAmpError)
+20-03-14 22:55:23-05  |Portal| [EE]   File "Z:\mud\evenv\Lib\site-packages\twisted\python\failure.py", line 460, in trap
+20-03-14 22:55:23-05  |Portal| [EE]     self.raiseException()
+20-03-14 22:55:23-05  |Portal| [EE]   File "Z:\mud\evenv\Lib\site-packages\twisted\python\failure.py", line 488, in raiseException
+20-03-14 22:55:23-05  |Portal| [EE]     raise self.value.with_traceback(self.tb)
+20-03-14 22:55:23-05  |Portal| [EE] twisted.protocols.amp.UnhandledCommand: (b'UNHANDLED', "Unhandled Command: b'MsgPortal2Server'")
+20-03-14 22:55:23-05  |Portal| [EE]  (b'UNHANDLED', "Unhandled Command: b'MsgPortal2Server'")
+20-03-14 22:58:23-05  |Portal| [EE] AMP Error for b'MsgPortal2Server': Traceback (most recent call last):
+20-03-14 22:58:23-05  |Portal| [EE] --- <exception caught here> ---
+20-03-14 22:58:23-05  |Portal| [EE]   File "Z:\mud\evenv\Lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+20-03-14 22:58:23-05  |Portal| [EE]     current.result = callback(current.result, *args, **kw)
+20-03-14 22:58:23-05  |Portal| [EE]   File "Z:\mud\evenv\Lib\site-packages\twisted\protocols\amp.py", line 1989, in _massageError
+20-03-14 22:58:23-05  |Portal| [EE]     error.trap(RemoteAmpError)
+20-03-14 22:58:23-05  |Portal| [EE]   File "Z:\mud\evenv\Lib\site-packages\twisted\python\failure.py", line 460, in trap
+20-03-14 22:58:23-05  |Portal| [EE]     self.raiseException()
+20-03-14 22:58:23-05  |Portal| [EE]   File "Z:\mud\evenv\Lib\site-packages\twisted\python\failure.py", line 488, in raiseException
+20-03-14 22:58:23-05  |Portal| [EE]     raise self.value.with_traceback(self.tb)
+20-03-14 22:58:23-05  |Portal| [EE] twisted.protocols.amp.UnhandledCommand: (b'UNHANDLED', "Unhandled Command: b'MsgPortal2Server'")
+20-03-14 22:58:23-05  |Portal| [EE]  (b'UNHANDLED', "Unhandled Command: b'MsgPortal2Server'")
+20-03-14 23:01:23-05  |Portal| [EE] AMP Error for b'MsgPortal2Server': Traceback (most recent call last):
+20-03-14 23:01:23-05  |Portal| [EE] --- <exception caught here> ---
+20-03-14 23:01:23-05  |Portal| [EE]   File "Z:\mud\evenv\Lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+20-03-14 23:01:23-05  |Portal| [EE]     current.result = callback(current.result, *args, **kw)
+20-03-14 23:01:23-05  |Portal| [EE]   File "Z:\mud\evenv\Lib\site-packages\twisted\protocols\amp.py", line 1989, in _massageError
+20-03-14 23:01:23-05  |Portal| [EE]     error.trap(RemoteAmpError)
+20-03-14 23:01:23-05  |Portal| [EE]   File "Z:\mud\evenv\Lib\site-packages\twisted\python\failure.py", line 460, in trap
+20-03-14 23:01:23-05  |Portal| [EE]     self.raiseException()
+20-03-14 23:01:23-05  |Portal| [EE]   File "Z:\mud\evenv\Lib\site-packages\twisted\python\failure.py", line 488, in raiseException
+20-03-14 23:01:23-05  |Portal| [EE]     raise self.value.with_traceback(self.tb)
+20-03-14 23:01:23-05  |Portal| [EE] twisted.protocols.amp.UnhandledCommand: (b'UNHANDLED', "Unhandled Command: b'MsgPortal2Server'")
+20-03-14 23:01:23-05  |Portal| [EE]  (b'UNHANDLED', "Unhandled Command: b'MsgPortal2Server'")
+20-03-14 23:04:23-05  |Portal| [EE] AMP Error for b'MsgPortal2Server': Traceback (most recent call last):
+20-03-14 23:04:23-05  |Portal| [EE] --- <exception caught here> ---
+20-03-14 23:04:23-05  |Portal| [EE]   File "Z:\mud\evenv\Lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+20-03-14 23:04:23-05  |Portal| [EE]     current.result = callback(current.result, *args, **kw)
+20-03-14 23:04:23-05  |Portal| [EE]   File "Z:\mud\evenv\Lib\site-packages\twisted\protocols\amp.py", line 1989, in _massageError
+20-03-14 23:04:23-05  |Portal| [EE]     error.trap(RemoteAmpError)
+20-03-14 23:04:23-05  |Portal| [EE]   File "Z:\mud\evenv\Lib\site-packages\twisted\python\failure.py", line 460, in trap
+20-03-14 23:04:23-05  |Portal| [EE]     self.raiseException()
+20-03-14 23:04:23-05  |Portal| [EE]   File "Z:\mud\evenv\Lib\site-packages\twisted\python\failure.py", line 488, in raiseException
+20-03-14 23:04:23-05  |Portal| [EE]     raise self.value.with_traceback(self.tb)
+20-03-14 23:04:23-05  |Portal| [EE] twisted.protocols.amp.UnhandledCommand: (b'UNHANDLED', "Unhandled Command: b'MsgPortal2Server'")
+20-03-14 23:04:23-05  |Portal| [EE]  (b'UNHANDLED', "Unhandled Command: b'MsgPortal2Server'")
+20-03-14 23:05:08-05  |Portal| [EE] AMP Error for b'MsgPortal2Server': Traceback (most recent call last):
+20-03-14 23:05:08-05  |Portal| [EE] --- <exception caught here> ---
+20-03-14 23:05:08-05  |Portal| [EE]   File "Z:\mud\evenv\Lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+20-03-14 23:05:08-05  |Portal| [EE]     current.result = callback(current.result, *args, **kw)
+20-03-14 23:05:08-05  |Portal| [EE]   File "Z:\mud\evenv\Lib\site-packages\twisted\protocols\amp.py", line 1989, in _massageError
+20-03-14 23:05:08-05  |Portal| [EE]     error.trap(RemoteAmpError)
+20-03-14 23:05:08-05  |Portal| [EE]   File "Z:\mud\evenv\Lib\site-packages\twisted\python\failure.py", line 460, in trap
+20-03-14 23:05:08-05  |Portal| [EE]     self.raiseException()
+20-03-14 23:05:08-05  |Portal| [EE]   File "Z:\mud\evenv\Lib\site-packages\twisted\python\failure.py", line 488, in raiseException
+20-03-14 23:05:08-05  |Portal| [EE]     raise self.value.with_traceback(self.tb)
+20-03-14 23:05:08-05  |Portal| [EE] twisted.protocols.amp.UnhandledCommand: (b'UNHANDLED', "Unhandled Command: b'MsgPortal2Server'")
+20-03-14 23:05:08-05  |Portal| [EE]  (b'UNHANDLED', "Unhandled Command: b'MsgPortal2Server'")
+20-03-14 23:05:12-05  |Portal| [EE] AMP Error for AdminPortal2Server: Traceback (most recent call last):
+20-03-14 23:05:12-05  |Portal| [EE] --- <exception caught here> ---
+20-03-14 23:05:12-05  |Portal| [EE]   File "Z:\mud\evenv\Lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+20-03-14 23:05:12-05  |Portal| [EE]     current.result = callback(current.result, *args, **kw)
+20-03-14 23:05:12-05  |Portal| [EE]   File "Z:\mud\evenv\Lib\site-packages\twisted\protocols\amp.py", line 1989, in _massageError
+20-03-14 23:05:12-05  |Portal| [EE]     error.trap(RemoteAmpError)
+20-03-14 23:05:12-05  |Portal| [EE]   File "Z:\mud\evenv\Lib\site-packages\twisted\python\failure.py", line 460, in trap
+20-03-14 23:05:12-05  |Portal| [EE]     self.raiseException()
+20-03-14 23:05:12-05  |Portal| [EE]   File "Z:\mud\evenv\Lib\site-packages\twisted\python\failure.py", line 488, in raiseException
+20-03-14 23:05:12-05  |Portal| [EE]     raise self.value.with_traceback(self.tb)
+20-03-14 23:05:12-05  |Portal| [EE] twisted.protocols.amp.UnhandledCommand: (b'UNHANDLED', "Unhandled Command: b'AdminPortal2Server'")
+20-03-14 23:05:12-05  |Portal| [EE]  (b'UNHANDLED', "Unhandled Command: b'AdminPortal2Server'")
+20-03-14 23:05:27-05  |Portal| Loading z:\mud\evennia\evennia\server\portal\portal.py...
+20-03-14 23:05:28-05  |Portal| Loaded.
+20-03-14 23:05:28-05  |Portal| twistd 19.10.0 (z:\mud\evenv\scripts\python.exe 3.7.1) starting up.
+20-03-14 23:05:28-05  |Portal| reactor class: twisted.internet.selectreactor.SelectReactor.
+20-03-14 23:05:28-05  |Portal| AMP starting on 4006
+20-03-14 23:05:28-05  |Portal| Telnet starting on 4000
+20-03-14 23:05:28-05  |Portal| Websocket starting on 4002
+20-03-14 23:05:28-05  |Portal| Webserver-proxy starting on 4001
+20-03-14 23:05:28-05  |Portal| Portal starting server ... ['z:\\mud\\evennia\\evennia\\server\\twistd.bat', '--python=z:\\mud\\evennia\\evennia\\server\\server.py']
+20-03-14 23:06:35-05  |Portal| Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=64063)
+20-03-14 23:06:35-05  |Portal| Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=64048)
+20-03-14 23:06:54-05  |Portal| Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=64049)
+20-03-14 23:07:39-05  |Portal| dropping connection to peer tcp4:127.0.0.1:64121 with abort=True: WebSocket closing handshake timeout (peer did not finish the closing handshake in time)
+20-03-14 23:07:44-05  |Portal| Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=64113)
+20-03-14 23:09:11-05  |Portal| Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=64164)
+20-03-14 23:09:11-05  |Portal| Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=64175)
+20-03-14 23:09:11-05  |Portal| Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=64176)
+20-03-14 23:09:11-05  |Portal| Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=64178)
+20-03-14 23:09:11-05  |Portal| Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=64177)
+20-03-14 23:09:11-05  |Portal| Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=64132)

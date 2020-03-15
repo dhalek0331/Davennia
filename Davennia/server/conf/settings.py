@@ -62,3 +62,12 @@ CMD_IGNORE_PREFIXES = "@&/+"
 # Web character view 
 ######################################################################
 INSTALLED_APPS += ('web.character',)
+
+######################################################################
+# Typeclass overrides
+######################################################################
+# from Davennia.typeclasses import character as char_inherits
+
+# BASE_CHARACTER_TYPECLASS = char_inherits.character.ColorableCharacter
+BASE_CHARACTER_TYPECLASS = "typeclasses.character.character.ColorableCharacter"
+
