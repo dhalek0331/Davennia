@@ -1,8 +1,10 @@
 """
 # @teleceport, from evennia commands.default.building
 """
-
+from evennia import DefaultCharacter
 from evennia.commands.default.building import CmdTeleport
+from evennia.utils import inherits_from
+
 
 class CmdTeleport(CmdTeleport):
     """
@@ -87,6 +89,9 @@ class CmdTeleport(CmdTeleport):
         else:
             obj_to_teleport = caller
             destination = caller.search(lhs, global_search=True)
+            # if inherits_from(destination, "Davennia.typeclasses.character.character"):
+            if inherits_from(destination, DefaultCharacter):
+                destination = destination.location
         if not obj_to_teleport:
             caller.msg("Did not find object to teleport.")
             return

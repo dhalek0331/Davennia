@@ -363,3 +363,8 @@
 20-03-14 23:09:11-05  |Portal| Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=64178)
 20-03-14 23:09:11-05  |Portal| Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=64177)
 20-03-14 23:09:11-05  |Portal| Timing out client: IPv4Address(type='TCP', host='127.0.0.1', port=64132)
+20-03-14 23:31:52-05  |Portal| Portal starting server ... ['z:\\mud\\evennia\\evennia\\server\\twistd.bat', '--python=z:\\mud\\evennia\\evennia\\server\\server.py']
+20-03-14 23:33:03-05  |Portal| Portal starting server ... ['z:\\mud\\evennia\\evennia\\server\\twistd.bat', '--python=z:\\mud\\evennia\\evennia\\server\\server.py']
+20-03-15 00:00:15-05  |Portal| Portal starting server ... ['z:\\mud\\evennia\\evennia\\server\\twistd.bat', '--python=z:\\mud\\evennia\\evennia\\server\\server.py']
+20-03-15 00:01:57-05  |Portal| Portal starting server ... ['z:\\mud\\evennia\\evennia\\server\\twistd.bat', '--python=z:\\mud\\evennia\\evennia\\server\\server.py']
+20-03-15 00:03:53-05  |Portal| Portal starting server ... ['z:\\mud\\evennia\\evennia\\server\\twistd.bat', '--python=z:\\mud\\evennia\\evennia\\server\\server.py']

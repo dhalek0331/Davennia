@@ -33,10 +33,6 @@ class CmdLook(default_cmds.CmdLook):
         """
         caller = self.caller
         args = self.args
-        print("Look", args, "-->")
-        self.msg("===========================================\n")
-        self.msg(F"look \'{args}\'")
-        self.msg("===========================================\n")
 
         if args:
             # we use quiet=True to turn off automatic error reporting.

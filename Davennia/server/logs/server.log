@@ -899,3 +899,117 @@ Failed to load application: module 'Davennia' has no attribute 'typeclasses'
 20-03-14 23:10:12-05 [::]     evennia.contrib.character.ColorableCharacter
 20-03-14 23:10:12-05 [::]     evennia.contrib.tutorial_examples.character.ColorableCharacter
 20-03-14 23:10:12-05 [EE] User input was: '@typeclass/reset/force #8 = character.ColorableCharacter'.
+20-03-14 23:17:51-05 [::] Traceback (most recent call last):
+20-03-14 23:17:51-05 [::]   File "z:\mud\evennia\evennia\commands\cmdhandler.py", line 634, in _run_command
+20-03-14 23:17:51-05 [::]     _progressive_cmd_run(cmd, ret)
+20-03-14 23:17:51-05 [::]   File "z:\mud\evennia\evennia\commands\cmdhandler.py", line 205, in _progressive_cmd_run
+20-03-14 23:17:51-05 [::]     value = next(generator)
+20-03-14 23:17:51-05 [::]   File "z:\mud\evennia\evennia\commands\default\building.py", line 2117, in func
+20-03-14 23:17:51-05 [::]     new_typeclass, clean_attributes=reset, clean_cmdsets=reset, run_start_hooks=hooks
+20-03-14 23:17:51-05 [::]   File "z:\mud\evennia\evennia\typeclasses\models.py", line 544, in swap_typeclass
+20-03-14 23:17:51-05 [::]     new_typeclass = class_from_module(new_typeclass, defaultpaths=settings.TYPECLASS_PATHS)
+20-03-14 23:17:51-05 [::]   File "z:\mud\evennia\evennia\utils\utils.py", line 1511, in class_from_module
+20-03-14 23:17:51-05 [::]     raise ImportError(err)
+20-03-14 23:17:51-05 [::] ImportError: 
+20-03-14 23:17:51-05 [::] Could not load typeclass 'character.ColorableCharacter'
+20-03-14 23:17:51-05 [::] Paths searched:
+20-03-14 23:17:51-05 [::]     character.ColorableCharacter
+20-03-14 23:17:51-05 [::]     typeclasses.character.ColorableCharacter
+20-03-14 23:17:51-05 [::]     evennia.character.ColorableCharacter
+20-03-14 23:17:51-05 [::]     evennia.contrib.character.ColorableCharacter
+20-03-14 23:17:51-05 [::]     evennia.contrib.tutorial_examples.character.ColorableCharacter
+20-03-14 23:17:51-05 [EE] User input was: '@typeclass/reset/force #1 = character.ColorableCharacter'.
+20-03-14 23:24:34-05 [SS] Authentication Failure: mudlet (IP: 127.0.0.1).
+20-03-14 23:24:43-05 [SS] Password successfully changed for mudlet(account None).
+20-03-14 23:24:43-05 [SS] Account Created: mudlet(account 3) (IP: 127.0.0.1).
+20-03-14 23:24:43-05 [SS] Throttle Activated: Too many accounts being created. (IP: 127.0.0.1, 2 hits in 600 seconds.)
+20-03-14 23:24:50-05 [SS] Authentication Success: mudlet(account 3) (IP: 127.0.0.1).
+20-03-14 23:24:50-05 [..] Logged in: mudlet(account 3) 127.0.0.1 (1 session(s) total)
+20-03-14 23:27:11-05 Look  -->
+20-03-14 23:31:52-05 [..] Server disconnected from the portal.
+20-03-14 23:31:52-05 Main loop terminated.
+20-03-14 23:31:52-05 Server Shut Down.
+20-03-14 23:31:52-05 Server Shut Down.
+20-03-14 23:31:52-05 Loading z:\mud\evennia\evennia\server\server.py...
+20-03-14 23:31:53-05 Loaded.
+20-03-14 23:31:53-05 twistd 19.10.0 (z:\mud\evenv\scripts\python.exe 3.7.1) starting up.
+20-03-14 23:31:53-05 reactor class: twisted.internet.selectreactor.SelectReactor.
+20-03-14 23:31:53-05 Webserver starting on 4005
+20-03-14 23:31:53-05 Server successfully reloaded.
+20-03-14 23:31:54-05 [::] Traceback (most recent call last):
+20-03-14 23:31:54-05 [::]   File "z:\mud\evennia\evennia\commands\cmdhandler.py", line 634, in _run_command
+20-03-14 23:31:54-05 [::]     _progressive_cmd_run(cmd, ret)
+20-03-14 23:31:54-05 [::]   File "z:\mud\evennia\evennia\commands\cmdhandler.py", line 205, in _progressive_cmd_run
+20-03-14 23:31:54-05 [::]     value = next(generator)
+20-03-14 23:31:54-05 [::]   File "z:\mud\evennia\evennia\commands\default\building.py", line 2117, in func
+20-03-14 23:31:54-05 [::]     new_typeclass, clean_attributes=reset, clean_cmdsets=reset, run_start_hooks=hooks
+20-03-14 23:31:54-05 [::]   File "z:\mud\evennia\evennia\typeclasses\models.py", line 577, in swap_typeclass
+20-03-14 23:31:54-05 [::]     self.at_first_save()
+20-03-14 23:31:54-05 [::]   File "z:\mud\evennia\evennia\objects\objects.py", line 1129, in at_first_save
+20-03-14 23:31:54-05 [::]     self.at_object_creation()
+20-03-14 23:31:54-05 [::]   File "Z:\mud\Davennia\typeclasses\character\character.py", line 8, in at_object_creation
+20-03-14 23:31:54-05 [::]     self.at_object_creation()
+20-03-14 23:31:54-05 [::]   File "Z:\mud\Davennia\typeclasses\character\character.py", line 8, in at_object_creation
+20-03-14 23:31:54-05 [::]     self.at_object_creation()
+20-03-14 23:31:54-05 [::]   File "Z:\mud\Davennia\typeclasses\character\character.py", line 8, in at_object_creation
+20-03-14 23:31:54-05 [::]     self.at_object_creation()
+20-03-14 23:31:54-05 [::]   [Previous line repeated 938 more times]
+20-03-14 23:31:54-05 [::] RecursionError: maximum recursion depth exceeded
+20-03-14 23:31:54-05 [EE] User input was: '@typeclass/reset/force #8 = character.character.ColorableCharacter'.
+20-03-14 23:33:03-05 [..] Server disconnected from the portal.
+20-03-14 23:33:03-05 Main loop terminated.
+20-03-14 23:33:03-05 Server Shut Down.
+20-03-14 23:33:03-05 Server Shut Down.
+20-03-14 23:33:04-05 Loading z:\mud\evennia\evennia\server\server.py...
+20-03-14 23:33:05-05 Loaded.
+20-03-14 23:33:05-05 twistd 19.10.0 (z:\mud\evenv\scripts\python.exe 3.7.1) starting up.
+20-03-14 23:33:05-05 reactor class: twisted.internet.selectreactor.SelectReactor.
+20-03-14 23:33:05-05 Webserver starting on 4005
+20-03-14 23:33:05-05 Server successfully reloaded.
+20-03-14 23:40:45-05 Look  -->
+20-03-14 23:40:56-05 Look  -->
+20-03-14 23:41:23-05 Look  -->
+20-03-14 23:42:58-05 Look  -->
+20-03-14 23:43:51-05 Look  -->
+20-03-14 23:51:05-05 Look  -->
+20-03-14 23:51:24-05 Look  -->
+20-03-15 00:00:15-05 [..] Server disconnected from the portal.
+20-03-15 00:00:15-05 Main loop terminated.
+20-03-15 00:00:15-05 Server Shut Down.
+20-03-15 00:00:15-05 Server Shut Down.
+20-03-15 00:00:15-05 Loading z:\mud\evennia\evennia\server\server.py...
+20-03-15 00:00:16-05 Loaded.
+20-03-15 00:00:16-05 twistd 19.10.0 (z:\mud\evenv\scripts\python.exe 3.7.1) starting up.
+20-03-15 00:00:16-05 reactor class: twisted.internet.selectreactor.SelectReactor.
+20-03-15 00:00:16-05 Webserver starting on 4005
+20-03-15 00:00:16-05 Server successfully reloaded.
+20-03-15 00:00:22-05 [::] Traceback (most recent call last):
+20-03-15 00:00:22-05 [::]   File "z:\mud\evennia\evennia\commands\cmdhandler.py", line 631, in _run_command
+20-03-15 00:00:22-05 [::]     ret = cmd.func()
+20-03-15 00:00:22-05 [::]   File "Z:\mud\Davennia\commands\builder\teleport.py", line 91, in func
+20-03-15 00:00:22-05 [::]     if destination.inherits_from("Davennia.typeclasses.character.character"):
+20-03-15 00:00:22-05 [::] AttributeError: 'ColorableCharacter' object has no attribute 'inherits_from'
+20-03-15 00:00:22-05 [EE] User input was: 'goto bill'.
+20-03-15 00:01:57-05 [..] Server disconnected from the portal.
+20-03-15 00:01:57-05 Main loop terminated.
+20-03-15 00:01:57-05 Server Shut Down.
+20-03-15 00:01:57-05 Server Shut Down.
+20-03-15 00:01:57-05 Loading z:\mud\evennia\evennia\server\server.py...
+20-03-15 00:01:59-05 Loaded.
+20-03-15 00:01:59-05 twistd 19.10.0 (z:\mud\evenv\scripts\python.exe 3.7.1) starting up.
+20-03-15 00:01:59-05 reactor class: twisted.internet.selectreactor.SelectReactor.
+20-03-15 00:01:59-05 Webserver starting on 4005
+20-03-15 00:01:59-05 Server successfully reloaded.
+20-03-15 00:03:53-05 [..] Server disconnected from the portal.
+20-03-15 00:03:53-05 Main loop terminated.
+20-03-15 00:03:53-05 Server Shut Down.
+20-03-15 00:03:53-05 Server Shut Down.
+20-03-15 00:03:53-05 Loading z:\mud\evennia\evennia\server\server.py...
+20-03-15 00:03:54-05 Loaded.
+20-03-15 00:03:54-05 twistd 19.10.0 (z:\mud\evenv\scripts\python.exe 3.7.1) starting up.
+20-03-15 00:03:54-05 reactor class: twisted.internet.selectreactor.SelectReactor.
+20-03-15 00:03:54-05 Webserver starting on 4005
+20-03-15 00:03:54-05 Server successfully reloaded.
+20-03-15 00:03:56-05 ====================================
+20-03-15 00:03:56-05 It inherits from character
+20-03-15 00:03:56-05 ====================================
